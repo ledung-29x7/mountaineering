@@ -1,0 +1,26 @@
+.home_container{
+    width: 1200px;
+    justify-content: center;
+    margin: 0px auto;
+}
+.items{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.slide-container{
+    width: 650px;
+    background-color: aqua;
+}
+
+.container_home{
+    width: 1000px;
+    align-items: center;
+    margin: 0px auto;
+}
+.a{
+    text-decoration: none;
+}
+.intro_small{
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
