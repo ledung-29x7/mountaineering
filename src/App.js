@@ -44,7 +44,7 @@ import Climbing_Performance from './page/knowledge/training/detail/Climbing_Perf
 import Overgripping from './page/knowledge/training/detail/Overgripping';
 
 //nutrition
-
+import VitaminD from './page/knowledge/nutrition/detail/VitaminD';
 // gear
 import Indispensable from './page/gear/detail/Indispensable_tool';
 import Camping_tents from './page/gear/detail/camping_tents';
@@ -98,7 +98,10 @@ function App() {
         <Route path='/Stop-Overgripping!-Here’s-How' element={<Overgripping/>}></Route>
 
         {/* nutrition */}
+        <Route path='/Why-You-Should-Probably-Supplement-Vitamin-D' element={<VitaminD/>}></Route>
 
+
+        
         {/* gear */}
         <Route path='/indispensable-tool' element={<Indispensable/>}></Route>
         <Route path='/camping-tents' element={<Camping_tents/>}></Route>

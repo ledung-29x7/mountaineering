@@ -2,13 +2,12 @@ import React from "react";
 import IntroComponent from "../../../components/introComponent";
 import { Link } from "react-router-dom";
 import '../../css/intros.css';
-import img1 from '../../../img/knowledge/techniques/Train_for_rock/1.avif'
 
 const nutrition = ()=>{
     return(
         <div className="gears">
-            <Link className='intro' to={`/`}>
-                <IntroComponent pic={img1} title="How to Train for Rock Climbing and Bouldering" intro="The best way to train for rock climbing is to spend time climbing—whether you do at the gym or the crag......"></IntroComponent>
+            <Link className='intro' to={`/Why-You-Should-Probably-Supplement-Vitamin-D`}>
+                <IntroComponent pic='https://i.pinimg.com/564x/f6/1a/89/f61a8947c9f597ef2809bae3a1fef355.jpg' title="Why You Should Probably Supplement Vitamin D" intro="Studies indicate Vitamin D impacts recovery, mood, immunity, and more. And chances are, if you're like over half of Americans, you're deficient."></IntroComponent>
             </Link> 
         </div>
         )
