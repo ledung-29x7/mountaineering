@@ -45,6 +45,10 @@ import Overgripping from './page/knowledge/training/detail/Overgripping';
 
 //nutrition
 import VitaminD from './page/knowledge/nutrition/detail/VitaminD';
+import Lightweight from './page/knowledge/nutrition/detail/lightweight';
+import TheKetoDiet from './page/knowledge/nutrition/detail/TheKetoDiet';
+import Vegan from './page/knowledge/nutrition/detail/Vegan';
+import Vitamins_Harmful from './page/knowledge/nutrition/detail/Vitamins_Harmful';
 // gear
 import Indispensable from './page/gear/detail/Indispensable_tool';
 import Camping_tents from './page/gear/detail/camping_tents';
@@ -52,6 +56,7 @@ import Stakes from './page/gear/detail/stakes';
 import Outdoorshoes from './page/gear/detail/outdoorshoes';
 import Backpack from './page/gear/detail/climbing_backpack';
 import Carabiners from './page/gear/detail/carabiners';
+
 
 function App() {
   return (
@@ -99,9 +104,11 @@ function App() {
 
         {/* nutrition */}
         <Route path='/Why-You-Should-Probably-Supplement-Vitamin-D' element={<VitaminD/>}></Route>
+        <Route path='/Good-To-Go Meals,a-lightweight-climbing-food' element={<Lightweight/>}></Route>
+        <Route path='/Why-The-Keto-Diet-Will-Hurt-Your-Climbing' element={<TheKetoDiet/>}></Route>
+        <Route path='/Can-Going-Vegan' element={<Vegan/>}></Route>
+        <Route path='/Are-Vitamins-Harmful?' element={<Vitamins_Harmful/>}></Route>
 
-
-        
         {/* gear */}
         <Route path='/indispensable-tool' element={<Indispensable/>}></Route>
         <Route path='/camping-tents' element={<Camping_tents/>}></Route>
