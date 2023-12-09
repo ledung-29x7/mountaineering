@@ -57,7 +57,7 @@ import Carabiners from './page/gear/detail/carabiners';
   import Mallorca from './page/media/videos/detail/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca';
 
   //photos
-
+  import Hhen from './page/media/photos/detail/hhen';
 
 function App() {
   return (
@@ -116,6 +116,12 @@ function App() {
         {/* videos */}
         <Route path='/Chris-Sharmas-Sleeping-Lion-Project' element={<Chris_Sharmas/>}></Route>
         <Route path='/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca' element={<Mallorca/>}></Route>
+
+        {/* photos */}
+        <Route path='/Miss-HHen-Nie-and-her-journey-to-explore-Son-Doong-cave' element={<Hhen/>}></Route>
+
+        {/* social */}
+        <Route path='https://www.facebook.com/'></Route>
       </Routes>
     </BrowserRouter>
   );

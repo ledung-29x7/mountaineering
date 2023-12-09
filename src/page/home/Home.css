@@ -18,8 +18,11 @@
     align-items: center;
     margin: 0px auto;
 }
-.a{
+.a_home{
     text-decoration: none;
+}
+.a_home:hover{
+    opacity: 0.7;
 }
 .intro_small{
     width: 650px;

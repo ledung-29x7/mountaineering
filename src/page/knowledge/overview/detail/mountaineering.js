@@ -1,5 +1,27 @@
 import '../../../css/dt.css'
+import { Link } from 'react-router-dom';
+import IntroComponent from '../../../../components/introComponent';
 const mountaineering = () =>{
+    const posts = [
+        {
+            pic : "https://www.psychi.co.uk/cdn/shop/articles/Screenshot_2022-01-18_at_12.56.31.jpg?v=1690555081&width=1790",
+            title : "History techniques",
+            intro : 'One of today’s predominant forms of mountaineering. The defining feature for classification in thi.......',
+            pages: '/types'
+        },
+        {
+            pic : "https://magazine.washington.edu/columns_wordpress/wp-content/uploads/2017/06/MOUNTAINEERS-PSD.jpg",
+            title : "History techniques",
+            intro : 'The history of various climbing and mountaineering techniques stretches as ......',
+            pages:'/history'
+        },
+        {
+            pic:"https://cdn.climbing.com/wp-content/uploads/2016/05/directvoicejpg.jpg?width=730",
+            title:"Communication when climbing",
+            intro:'The most common form of communication during mountaineering is simply calling with the voice....',
+            pages: '/communication'
+        },
+    ]
     return(
         <div className="test">
             <h1>Mountaineering</h1>
@@ -32,6 +54,14 @@ const mountaineering = () =>{
         <p>For the traditional forms of mountaineering the object is still to climb the entire route up to the summit of the mountain or tower, or some other logical point in the terrain. To finish 5 metres below the summit is the same as if nothing has been climbed at all.</p>
 
         <p>Important regions for traditional mountaineering in Europe include the rocky terrain of Wales in Great Britain and the sandstone cliffs in Saxony and the Czech Republic. Naturally the primary domain of traditional mountaineering are the very high altitude mountains (Alps, High Tatras, etc.). In the Czech Republic, aside from the aforementioned sandstone, the Jizerské Mountains are another important area for traditional mountaineering.</p>
+        <h1 className='items'>Related articles</h1>
+            <div style={{display:'flex'}}>
+                {posts.map((post)=>(
+                    <Link className='intro' to={post.pages}>
+                        <IntroComponent pic={post.pic} title={post.title} intro={post.intro} ></IntroComponent>
+                    </Link>
+                ))}
+                </div>
     </div>
     )
 }

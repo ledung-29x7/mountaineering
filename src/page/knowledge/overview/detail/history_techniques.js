@@ -1,9 +1,31 @@
 import React from 'react'
 import '../../../css/dt.css';
+import { Link } from 'react-router-dom';
+import IntroComponent from '../../../../components/introComponent';
 import img1 from '../../../../img/knowledge/history/Hans_Fiechtl_(1883-1925).jpg'
 import img2 from '../../../../img/knowledge/history/290px-Hans_Dülfer.jpg'
 import img3 from '../../../../img/knowledge/history/otto-herzog-portrait.jpg'
 const history_techniques = () =>{
+    const posts = [
+        {
+            pic : "https://www.psychi.co.uk/cdn/shop/articles/Screenshot_2022-01-18_at_12.56.31.jpg?v=1690555081&width=1790",
+            title : "History techniques",
+            intro : 'One of today’s predominant forms of mountaineering. The defining feature for classification in thi.......',
+            pages: '/types'
+        },
+        {
+            pic : "https://magazine.washington.edu/columns_wordpress/wp-content/uploads/2017/06/MOUNTAINEERS-PSD.jpg",
+            title : "History techniques",
+            intro : 'The history of various climbing and mountaineering techniques stretches as ......',
+            pages:'/history'
+        },
+        {
+            pic:"https://cdn.climbing.com/wp-content/uploads/2016/05/directvoicejpg.jpg?width=730",
+            title:"Communication when climbing",
+            intro:'The most common form of communication during mountaineering is simply calling with the voice....',
+            pages: '/communication'
+        },
+    ]
     return(
         <div className='test'>
         <h1>History of mountaineering techniques</h1>
@@ -29,6 +51,14 @@ const history_techniques = () =>{
         <p>However, the ideal of free climbing had not disappeared entirely from Europe prior to this. It had been maintained in the region of the sandstone rocks of Saxony and Bohemia, where it had been strictly maintained since the beginning of the 20th century. Thanks to the emigration of one of the leading mountaineers of Saxony, Fritz Wiessner, to the USA, this ideal of free climbing began to grow in America as well, primarily in cliff terrain outside of the mountains. Thereby the particular discipline of cliff mountaineering can about, which was focussed on free climbing.</p>
         <p>Free climbing was completely established at the turn of the seventies and eighties of the 20th century. Reinhold Messner returned it to the mountains, and the Americans to the cliffs. Henceforth technical aids were used exclusively for belaying against falls, and were not intended to aid the upward progress of the climber. This idea of free climbing gives direction to the development of the sport and its technical aids to this day.</p>
         <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/finger-cracks" style={{color:"white"}} class="fb-xfbml-parse-ignore"><i style={{fontSize:"large", color:"white"}} class="fa-brands fa-facebook-f"></i>Share on Facebook</a></div>
+        <h1 className='items'>Related articles</h1>
+            <div style={{display:'flex'}}>
+                {posts.map((post)=>(
+                    <Link className='intro' to={post.pages}>
+                        <IntroComponent pic={post.pic} title={post.title} intro={post.intro} ></IntroComponent>
+                    </Link>
+                ))}
+                </div>
         </div>
     )
 }

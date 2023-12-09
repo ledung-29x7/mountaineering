@@ -68,16 +68,16 @@ const type =() =>{
         </div>
         <div className='test'>
             <h1 className='items'>
-                BÀI VIẾT LIÊN QUAN
+                Related articles
             </h1>
             <div className='related'>
-                <Link to={`/rating`}>
+                <Link className='intro' to={`/rating`}>
                     <Intro_related  pic="https://mojagear.com/wp-content/uploads/2017/03/climbing-grades-explained1.png" title="Risk rating system"></Intro_related>
                 </Link>
-                <Link to={`/terrain`}>
+                <Link className='intro' to={`/terrain`}>
                     <Intro_related  pic="https://mountaineeringmethodology.com/wp-content/uploads/2021/05/typy_terenu-1024x1011.jpg" title="Mountaineering terrain"></Intro_related>
                 </Link>
-                <Link to={`/history`}>
+                <Link className='intro' to={`/history`}>
                     <Intro_related  pic="https://magazine.washington.edu/columns_wordpress/wp-content/uploads/2017/06/MOUNTAINEERS-PSD.jpg" title="History of mountaineering"></Intro_related>
                 </Link>
             </div>

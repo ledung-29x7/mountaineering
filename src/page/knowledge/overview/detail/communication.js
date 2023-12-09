@@ -2,10 +2,30 @@ import React from 'react'
 import '../../../css/dt.css';
 import img1 from '../../../../img/knowledge/communication/bodan.jpeg'
 import { Link } from 'react-router-dom';
-import Intro_related from '../../../../components/intro_related';
+import IntroComponent from '../../../../components/introComponent';
+
 const communication = () =>{
+    const posts = [
+        {
+            pic : "https://www.psychi.co.uk/cdn/shop/articles/Screenshot_2022-01-18_at_12.56.31.jpg?v=1690555081&width=1790",
+            title : "History techniques",
+            intro : 'One of today’s predominant forms of mountaineering. The defining feature for classification in thi.......',
+            pages: '/types'
+        },
+        {
+            pic : "https://magazine.washington.edu/columns_wordpress/wp-content/uploads/2017/06/MOUNTAINEERS-PSD.jpg",
+            title : "History techniques",
+            intro : 'The history of various climbing and mountaineering techniques stretches as ......',
+            pages:'/history'
+        },
+        {
+            pic:"https://cdn.climbing.com/wp-content/uploads/2016/05/directvoicejpg.jpg?width=730",
+            title:"Communication when climbing",
+            intro:'The most common form of communication during mountaineering is simply calling with the voice....',
+            pages: '/communication'
+        },
+    ]
     return(
-        <div>
             <div className='test'>
             <h1>Communication when climbing</h1>
             <h3 >Voice communication during the ascent</h3>
@@ -38,24 +58,15 @@ const communication = () =>{
             <img className='img_bv' src={img1}></img>
             <p>Small radio transmitters in PMR format which function on the 446 MHz frequency are a proven method for communication among members of a rope team. For mountaineering purposes it is appropriate to be equipped with models that are more impact- and water-resistant. For problem-free communication it is also good for the selected tools to support CTCSS technology (so-called “co-channels”) of which there may be up to 38 as part of one channel. This significantly limits the mutual nuisance of multiple users of radio operations on the same channel. The reach of transmitters in PMR format in the outdoors with no obstacles is approximately 5 km; obstacles in the terrain can significantly reduce the range of the signal. Of course, for the typical length of a pitch this signal range is completely suitable, even in rugged rock terrain. Use of radios finds application mostly in mountains on multi-pitch ascents.</p>
             <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/finger-cracks" style={{color:"white"}} class="fb-xfbml-parse-ignore"><i style={{fontSize:"large", color:"white"}} class="fa-brands fa-facebook-f"></i>Share on Facebook</a></div>
-        </div>
-        <div className='test'>
-            <h1 className='items'>
-                BÀI VIẾT LIÊN QUAN
-            </h1>
-            <div className='related'>
-                <Link to={`/rating`}>
-                    <Intro_related  pic="https://mojagear.com/wp-content/uploads/2017/03/climbing-grades-explained1.png" title="Risk rating system"></Intro_related>
-                </Link>
-                <Link to={`/terrain`}>
-                    <Intro_related  pic="https://mountaineeringmethodology.com/wp-content/uploads/2021/05/typy_terenu-1024x1011.jpg" title="Mountaineering terrain"></Intro_related>
-                </Link>
-                <Link to={`/history`}>
-                    <Intro_related  pic="https://magazine.washington.edu/columns_wordpress/wp-content/uploads/2017/06/MOUNTAINEERS-PSD.jpg" title="History of mountaineering"></Intro_related>
-                </Link>
+            <h1 className='items'>Related articles</h1>
+            <div style={{display:'flex'}}>
+                {posts.map((post)=>(
+                    <Link className='intro' to={post.pages}>
+                        <IntroComponent pic={post.pic} title={post.title} intro={post.intro} ></IntroComponent>
+                    </Link>
+                ))}
+                </div>
             </div>
-        </div>
-    </div>
     )
 }
 export default communication ;

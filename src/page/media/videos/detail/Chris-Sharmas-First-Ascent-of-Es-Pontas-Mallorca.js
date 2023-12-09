@@ -6,7 +6,7 @@ import video1 from '../../../../videos/Chris Sharmas First Ascent of Es Pontás
 const Mallorca =()=>{
     return(
         <div className="test">
-            <h1>Chris Sharma's Sleeping Lion Project</h1>
+            <h1>Chris Sharmas First Ascent of Es Pontás Mallorca</h1>
             <video width='100%' controls>
                 <source src={video1} type="video/mp4"></source>
             </video>

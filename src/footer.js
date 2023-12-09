@@ -1,3 +1,4 @@
+
 import './footer.css';
 import logo from './img/logo2.png'
 
@@ -9,8 +10,8 @@ const Footer = () => {
                     <p className='about_laybel'>About</p>
                     <p className='about_detail'>mountaineering - Blog specializing in climbing activities, providing necessary knowledge and tips for successful climbing trips, reviewing ideal climbing locations as well as good and quality climbing aids quantity.</p>
                     <div className='social'>
-                        <a src="https://www.facebook.com"><i className="fa-brands fa-facebook"></i></a>
-                        <a src="https://www.facebook.com"><i className="fa-brands fa-pinterest"></i></a>
+                        <a path='https://www.facebook.com/' ><i className="fa-brands fa-pinterest"></i></a>
+                        <a src={``}><i className="fa-brands fa-facebook"></i></a>
                     </div>
                 </div>
                 <div className='contact'>
