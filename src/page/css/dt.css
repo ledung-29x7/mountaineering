@@ -1,0 +1,34 @@
+.test{
+    width: 780px;
+    margin: 0px auto;
+}
+.img_bv{
+    width: 100%;
+    text-align: center;
+}
+.note{
+    font-size: 14px;
+    color: #6a6969;
+    margin: 0px;
+}
+.ul_li{
+    padding: 20px;
+}
+.ul_li li{
+    padding: 10px;
+}
+.fb-share-button{
+    margin: 20px;
+    
+}
+.fb-xfbml-parse-ignore{
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.related{
+    display: flex;
+    margin-bottom: 30px;
+}
