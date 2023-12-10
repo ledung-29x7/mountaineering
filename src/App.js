@@ -59,6 +59,11 @@ import Carabiners from './page/gear/detail/carabiners';
   //photos
   import Hhen from './page/media/photos/detail/hhen';
 
+
+  //location
+  import SonDoongCave from './page/location/detail/SonDoongCave';
+  import EverestMount from './page/location/detail/EverestMount';
+
 function App() {
   return (
     <BrowserRouter basename='/'>
@@ -120,8 +125,11 @@ function App() {
         {/* photos */}
         <Route path='/Miss-HHen-Nie-and-her-journey-to-explore-Son-Doong-cave' element={<Hhen/>}></Route>
 
-        {/* social */}
-        <Route path='https://www.facebook.com/'></Route>
+        {/* location */}
+        <Route path='/SonDoongCave' element={<SonDoongCave/>}></Route>
+        <Route path='/Complete-Guide-to-Mount-Everest' element={<EverestMount/>}></Route>
+
+
       </Routes>
     </BrowserRouter>
   );
