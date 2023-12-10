@@ -1,7 +1,7 @@
 import React from "react";
 import '../../css/dt.css'
 import Maps from "../../../components/maps";
-import img1 from"../../../img/location/SonDoongCave/sd1.jpg";
+// import img1 from"../../../img/location/SonDoongCave/sd1.jpg";
 import img2 from"../../../img/location/SonDoongCave/sd2.jpg";
 import img3 from"../../../img/location/SonDoongCave/sd3.jpg";
 import img4 from"../../../img/location/SonDoongCave/sd4.jpg";

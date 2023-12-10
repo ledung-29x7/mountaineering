@@ -3,8 +3,9 @@ import '../../../css/dt.css';
 import { Link } from 'react-router-dom';
 import IntroComponent from '../../../../components/introComponent';
 import img1 from '../../../../img/knowledge/history/Hans_Fiechtl_(1883-1925).jpg'
-import img2 from '../../../../img/knowledge/history/290px-Hans_Dülfer.jpg'
+import img2 from '../../../../img/knowledge/history/290px-Hans_Dulfer.jpg'
 import img3 from '../../../../img/knowledge/history/otto-herzog-portrait.jpg'
+import Related_articles from '../../../../components/Related_articles';
 const history_techniques = () =>{
     const posts = [
         {
@@ -51,14 +52,8 @@ const history_techniques = () =>{
         <p>However, the ideal of free climbing had not disappeared entirely from Europe prior to this. It had been maintained in the region of the sandstone rocks of Saxony and Bohemia, where it had been strictly maintained since the beginning of the 20th century. Thanks to the emigration of one of the leading mountaineers of Saxony, Fritz Wiessner, to the USA, this ideal of free climbing began to grow in America as well, primarily in cliff terrain outside of the mountains. Thereby the particular discipline of cliff mountaineering can about, which was focussed on free climbing.</p>
         <p>Free climbing was completely established at the turn of the seventies and eighties of the 20th century. Reinhold Messner returned it to the mountains, and the Americans to the cliffs. Henceforth technical aids were used exclusively for belaying against falls, and were not intended to aid the upward progress of the climber. This idea of free climbing gives direction to the development of the sport and its technical aids to this day.</p>
         <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/finger-cracks" style={{color:"white"}} class="fb-xfbml-parse-ignore"><i style={{fontSize:"large", color:"white"}} class="fa-brands fa-facebook-f"></i>Share on Facebook</a></div>
-        <h1 className='items'>Related articles</h1>
-            <div style={{display:'flex'}}>
-                {posts.map((post)=>(
-                    <Link className='intro' to={post.pages}>
-                        <IntroComponent pic={post.pic} title={post.title} intro={post.intro} ></IntroComponent>
-                    </Link>
-                ))}
-                </div>
+        {/* related articles */}
+        <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

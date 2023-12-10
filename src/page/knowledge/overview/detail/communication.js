@@ -1,8 +1,7 @@
 import React from 'react'
 import '../../../css/dt.css';
 import img1 from '../../../../img/knowledge/communication/bodan.jpeg'
-import { Link } from 'react-router-dom';
-import IntroComponent from '../../../../components/introComponent';
+import Related_articles from '../../../../components/Related_articles';
 
 const communication = () =>{
     const posts = [
@@ -58,14 +57,8 @@ const communication = () =>{
             <img className='img_bv' src={img1}></img>
             <p>Small radio transmitters in PMR format which function on the 446 MHz frequency are a proven method for communication among members of a rope team. For mountaineering purposes it is appropriate to be equipped with models that are more impact- and water-resistant. For problem-free communication it is also good for the selected tools to support CTCSS technology (so-called “co-channels”) of which there may be up to 38 as part of one channel. This significantly limits the mutual nuisance of multiple users of radio operations on the same channel. The reach of transmitters in PMR format in the outdoors with no obstacles is approximately 5 km; obstacles in the terrain can significantly reduce the range of the signal. Of course, for the typical length of a pitch this signal range is completely suitable, even in rugged rock terrain. Use of radios finds application mostly in mountains on multi-pitch ascents.</p>
             <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/finger-cracks" style={{color:"white"}} class="fb-xfbml-parse-ignore"><i style={{fontSize:"large", color:"white"}} class="fa-brands fa-facebook-f"></i>Share on Facebook</a></div>
-            <h1 className='items'>Related articles</h1>
-            <div style={{display:'flex'}}>
-                {posts.map((post)=>(
-                    <Link className='intro' to={post.pages}>
-                        <IntroComponent pic={post.pic} title={post.title} intro={post.intro} ></IntroComponent>
-                    </Link>
-                ))}
-                </div>
+            {/* related articles */}
+            <Related_articles posts={posts}></Related_articles>
             </div>
     )
 }

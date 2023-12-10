@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../../../css/dt.css';
-
-import Intro_related from '../../../../components/intro_related';
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/1.jpg';
 import img2 from '../../../../img/knowledge/2.jpg';
 import img3 from '../../../../img/knowledge/3.jpg';
@@ -13,6 +11,26 @@ import img7 from '../../../../img/knowledge/7.jpg';
 
 
 const type =() =>{
+    const posts = [
+        {
+            pic : "https://www.psychi.co.uk/cdn/shop/articles/Screenshot_2022-01-18_at_12.56.31.jpg?v=1690555081&width=1790",
+            title : "History techniques",
+            intro : 'One of today’s predominant forms of mountaineering. The defining feature for classification in thi.......',
+            pages: '/types'
+        },
+        {
+            pic : "https://magazine.washington.edu/columns_wordpress/wp-content/uploads/2017/06/MOUNTAINEERS-PSD.jpg",
+            title : "History techniques",
+            intro : 'The history of various climbing and mountaineering techniques stretches as ......',
+            pages:'/history'
+        },
+        {
+            pic:"https://cdn.climbing.com/wp-content/uploads/2016/05/directvoicejpg.jpg?width=730",
+            title:"Communication when climbing",
+            intro:'The most common form of communication during mountaineering is simply calling with the voice....',
+            pages: '/communication'
+        },
+    ]
     return (
         <React.Fragment>
         <div className='test'>
@@ -65,22 +83,7 @@ const type =() =>{
             <h3>Interdisciplines</h3>
             <p>At the conclusion of this overview of mountaineering forms and disciplines we should also mention interdisciplines, where elements of mountaineering extend into other sports or activities. Mountaineering combined with speleology is called speleoalpinism, mountaineering in combination with paragliding is called paraglidealpinism. Among the new interdisciplines we can also include, for example, the presently popular canyoning.</p>
             <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/finger-cracks" style={{color:"white"}} class="fb-xfbml-parse-ignore"><i style={{fontSize:"large", color:"white"}} class="fa-brands fa-facebook-f"></i>Share on Facebook</a></div>
-        </div>
-        <div className='test'>
-            <h1 className='items'>
-                Related articles
-            </h1>
-            <div className='related'>
-                <Link className='intro' to={`/rating`}>
-                    <Intro_related  pic="https://mojagear.com/wp-content/uploads/2017/03/climbing-grades-explained1.png" title="Risk rating system"></Intro_related>
-                </Link>
-                <Link className='intro' to={`/terrain`}>
-                    <Intro_related  pic="https://mountaineeringmethodology.com/wp-content/uploads/2021/05/typy_terenu-1024x1011.jpg" title="Mountaineering terrain"></Intro_related>
-                </Link>
-                <Link className='intro' to={`/history`}>
-                    <Intro_related  pic="https://magazine.washington.edu/columns_wordpress/wp-content/uploads/2017/06/MOUNTAINEERS-PSD.jpg" title="History of mountaineering"></Intro_related>
-                </Link>
-            </div>
+            <Related_articles posts={posts}></Related_articles>
         </div>
         </React.Fragment>
     )

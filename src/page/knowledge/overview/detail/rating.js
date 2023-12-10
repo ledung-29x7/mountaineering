@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../../css/dt.css';
-import { Link } from 'react-router-dom';
-import IntroComponent from '../../../../components/introComponent';
+import Related_articles from '../../../../components/Related_articles';
 
 import img1 from '../../../../img/knowledge/rating/UIAA-EN.jpg';
 import img2 from '../../../../img/knowledge/rating/image.png';
@@ -112,14 +111,7 @@ const rating = ()=>{
             <h3>Bouldering classification system</h3>
             <p> After years of development two classification systems were ultimately established, the French Fb system and the American V system. The Fb system (the name is derived from the name of the popular French bouldering region Fontainebleau) more or less copies the French system for rock climbing, except that it is significantly harder. For distinction from common rock climbing systems the abbreviation “Fb” is written before the grade. The American bouldering system is relatively simple, each harder ascent receives a higher grade, designations from V0 to the current V15 are used.</p>
             <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/finger-cracks" style={{color:"white"}} class="fb-xfbml-parse-ignore"><i style={{fontSize:"large", color:"white"}} class="fa-brands fa-facebook-f"></i>Share on Facebook</a></div>
-            <h1 className='items'>Related articles</h1>
-            <div style={{display:'flex'}}>
-                {posts.map((post)=>(
-                    <Link className='intro' to={post.pages}>
-                        <IntroComponent pic={post.pic} title={post.title} intro={post.intro} ></IntroComponent>
-                    </Link>
-                ))}
-                </div>
+        <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

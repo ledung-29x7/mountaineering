@@ -1,6 +1,5 @@
 import '../../../css/dt.css'
-import { Link } from 'react-router-dom';
-import IntroComponent from '../../../../components/introComponent';
+import Related_articles from '../../../../components/Related_articles'
 const mountaineering = () =>{
     const posts = [
         {
@@ -54,14 +53,7 @@ const mountaineering = () =>{
         <p>For the traditional forms of mountaineering the object is still to climb the entire route up to the summit of the mountain or tower, or some other logical point in the terrain. To finish 5 metres below the summit is the same as if nothing has been climbed at all.</p>
 
         <p>Important regions for traditional mountaineering in Europe include the rocky terrain of Wales in Great Britain and the sandstone cliffs in Saxony and the Czech Republic. Naturally the primary domain of traditional mountaineering are the very high altitude mountains (Alps, High Tatras, etc.). In the Czech Republic, aside from the aforementioned sandstone, the Jizerské Mountains are another important area for traditional mountaineering.</p>
-        <h1 className='items'>Related articles</h1>
-            <div style={{display:'flex'}}>
-                {posts.map((post)=>(
-                    <Link className='intro' to={post.pages}>
-                        <IntroComponent pic={post.pic} title={post.title} intro={post.intro} ></IntroComponent>
-                    </Link>
-                ))}
-                </div>
+        <Related_articles posts={posts}></Related_articles>
     </div>
     )
 }
