@@ -9,6 +9,7 @@ import img6 from '../../../img/location/himalayan_9/6.avif'
 import img7 from '../../../img/location/himalayan_9/7.avif'
 import img8 from '../../../img/location/himalayan_9/8.avif'
 import img9 from '../../../img/location/himalayan_9/9.avif'
+import Maps from "../../../components/maps";
 
 
 const Himalayan =()=>{
@@ -204,6 +205,8 @@ const Himalayan =()=>{
             <p>
                 Kieren says: “I have been planning an FKT on this peak for a long time. It’s good that it was banned due to the exploitation it endured from gazillions of footfalls during the season. Let’s see what decision is made for the peak post-2023.”
             </p>
+
+            <Maps name="Himalayan" ggmap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7056423.739309885!2d80.30215700532312!3d30.279271808463662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995b9ebef1235bd%3A0x3ae1297b70640201!2sHimalaya!5e0!3m2!1svi!2s!4v1702306750555!5m2!1svi!2s"></Maps>
         </div>
     )
 }

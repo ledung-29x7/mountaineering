@@ -56,7 +56,7 @@ const Mont_Blanc =()=>{
             <p>You can’t avoid this — Mont Blanc is a busy mountain. But don’t let that stop you. It’s also a big mountain, so it should very rarely feel too crowded.</p>
             <img className="img_bv" src={img4}/>
             <p>Of course, if you want to increase the chance of meeting fewer people, climb in June or in September. But be aware that finding the day with the right conditions in those months is harder because the weather is more changeable. Accordingly, plan to climb Mont Blanc in these months with increased caution.</p>
-            <Maps name='Everest Mount' ggmap='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18681.878300143162!2d6.844448128957307!3d45.83112394550137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789459fb534be51%3A0xbde0c58bfb767cdc!2sMont%20Blanc%20massif!5e0!3m2!1svi!2s!4v1702291363386!5m2!1svi!2s'></Maps>
+            <Maps name='Mont Blanc' ggmap='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18681.878300143162!2d6.844448128957307!3d45.83112394550137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789459fb534be51%3A0xbde0c58bfb767cdc!2sMont%20Blanc%20massif!5e0!3m2!1svi!2s!4v1702291363386!5m2!1svi!2s'></Maps>
         </div>
     )
 }
