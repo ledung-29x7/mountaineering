@@ -1,0 +1,84 @@
+[
+    {
+        "pic": "/trainning/intro/1.avif",
+        "title" :"How to Train for Rock Climbing and Bouldering",
+        "intro" : "The best way to train for rock climbing is to spend time climbing—whether you do at the gym or the crag......",
+        "pages": "/Train-for-Rock-Climbing"
+        
+    },
+    {
+        "pic":"./trainning/intro/2.jpeg",
+        "title":"How to Train Everywhere and Anywhere" ,
+        "intro":"Even the most dedicated gym rats can’t pull plastic everyday.",
+        "pages": "/How-to-Train-Everywhere-and-Anywhere"
+
+    },
+    {
+        "pic":"./trainning/intro/3.jpeg",
+        "title":"How to Train for Climbing in a Non-Climbing Gym" ,
+        "intro": "If you live far from the crags or a climbing gym—or find yourself marooned in a “climbing desert”—you need not lose sight of your climbing goals.",
+        "pages": "/How-to-Train-for-Climbing-in-a-Non-Climbing-Gym"
+    },
+    {
+        "pic":"./trainning/intro/4.jpeg" ,
+        "title":"How Climber Should Train for Dynamic Movement" ,
+        "intro":"Plyometrics involve rapid muscle stretching and contraction to increase power production.",
+        "pages": "/How-Climber-Should-Train-for-Dynamic-Movement"
+
+    },
+    {
+        "pic":"./trainning/intro/5.jpeg" ,
+        "title":"How To Know When To Keep Training And When To Quit" ,
+        "intro":"It's easy to push your training too far, and get injured or see negative progress because you are doing too much.",
+        "pages": "/How-To-Know-When-To-Keep-Training-And-When-To-Quit"
+
+    },
+    {
+        "pic":"./trainning/intro/6.webp" ,
+        "title":"Build Your Training Around Your Life" ,
+        "intro":"The reality is that you likely need to eliminate some training protocols and narrow your focus to become a better climber.",
+        "pages": "/Build-Your-Training-Around-Your-Life"
+
+    },
+    {
+        "pic":"./trainning/intro/7.jpeg" ,
+        "title":"Is Training Worth Your Time?" ,
+        "intro":"Not many will argue that hitting the fingerboard will improve your climbing grade, but if simply going climbing is just as effective...",
+        "pages": "/Is-Training-Worth-Your-Time?"
+
+    },
+    {
+        "pic":"./trainning/intro/8.jpeg" ,
+        "title":"Is Collagen Protein Worth the Hype?" ,
+        "intro":"More climbers than ever are stirring collagen into their morning coffee, or snacking on gelatin, trying to keep their tendons healthy. But are these supplements actually helping?",
+        "pages": "/Is-Collagen-Protein-Worth-the-Hype?"
+
+    },
+    {
+        "pic":"./trainning/intro/9.jpeg" ,
+        "title":"Jonathan Siegrist: Easy Sends Don’t Improve Your Climbing" ,
+        "intro":"How Jonathan Siegrist, possibly the most prolific sport climber in the United States, trained his anti-style and went from a vertical crimp specialist to a steep cave crusher.",
+        "pages": "/Jonathan-Siegrist:Easy-Sends-Don’t-Improve-Your-Climbing"
+
+    },
+    {
+        "pic":"./trainning/intro/10.jpeg" ,
+        "title":"Short on Time? Try This 45-minute Circuit Workout" ,
+        "intro":"Busy life and can't get to the climbing gym or rocks mid-week? Try this quick strength-building workout..",
+        "pages": "/Try-This-45-minute-Circuit-Workout"
+
+    },
+    {
+        "pic":"./trainning/intro/11.jpeg" ,
+        "title":"Optimize Your Climbing Performance" ,
+        "intro":"Pelvic problems are overwhelmingly prevalent—but they do not need to be accepted as part of life.",
+        "pages": "/Optimize-Your-Climbing-Performance"
+
+    },
+    {
+        "pic":"./trainning/intro/12.jpeg" ,
+        "title":"Stop Overgripping! Here’s How" ,
+        "intro":"Professional climber and coach Neil Gresham's advice for training yourself to grip holds just enough, and not so much you waste power.",
+        "pages": "/Stop-Overgripping!-Here’s-How"
+    }
+]

@@ -5,6 +5,10 @@
     margin-top: 10px;
     margin-right: 10px;
 }
+
+.title_intro{
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .pic{
     width: 300px;
 }

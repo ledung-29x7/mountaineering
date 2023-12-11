@@ -39,9 +39,25 @@ import Avalanche from './page/knowledge/techniques/detail/Avalanche';
 import Belay from './page/knowledge/techniques/detail/Belay';
 
 // training
-import Train_for_Rock from './page/knowledge/training/detail/Train_for_Rock'
+import Train_for_Rock from './page/knowledge/training/detail/Train_for_Rock';
+import Train_Everywhere from './page/knowledge/training/detail/Train_Everywhere';
+import Non_Climbing from './page/knowledge/training/detail/Non_Climbing';
+import Dynamic_Climbing from './page/knowledge/training/detail/Dynamic_Climbing';
+import Keep_Training from './page/knowledge/training/detail/Keep_Training';
+import Training_Around from './page/knowledge/training/detail/Training_Around';
+import Training_Worth from './page/knowledge/training/detail/Training_Worth';
+import Collagen_Protein from './page/knowledge/training/detail/Collagen_Protein';
+import Improve_Climbing from './page/knowledge/training/detail/Improve_Climbing';
+import Circuit_Workout from './page/knowledge/training/detail/Circuit_Workout';
+import Climbing_Performance from './page/knowledge/training/detail/Climbing_Performance';
+import Overgripping from './page/knowledge/training/detail/Overgripping';
 
 //nutrition
+import VitaminD from './page/knowledge/nutrition/detail/VitaminD';
+import Lightweight from './page/knowledge/nutrition/detail/lightweight';
+import TheKetoDiet from './page/knowledge/nutrition/detail/TheKetoDiet';
+import Vegan from './page/knowledge/nutrition/detail/Vegan';
+import Vitamins_Harmful from './page/knowledge/nutrition/detail/Vitamins_Harmful';
 
 // gear
 import Indispensable from './page/gear/detail/Indispensable_tool';
@@ -106,8 +122,25 @@ function App() {
 
         {/* training */}
         <Route path='/Train-for-Rock-Climbing' element={<Train_for_Rock/>}></Route>
+        <Route path='/How-to-Train-Everywhere-and-Anywhere' element={<Train_Everywhere/>}></Route>
+        <Route path='/How-to-Train-for-Climbing-in-a-Non-Climbing-Gym' element={<Non_Climbing/>}></Route>
+        <Route path='/How-Climber-Should-Train-for-Dynamic-Movement' element={<Dynamic_Climbing/>}></Route>
+        <Route path='/How-To-Know-When-To-Keep-Training-And-When-To-Quit' element={<Keep_Training/>}></Route>
+        <Route path='/Build-Your-Training-Around-Your-Life' element={<Training_Around/>}></Route>
+        <Route path='/Is-Training-Worth-Your-Time?' element={<Training_Worth/>}></Route>
+        <Route path='/Is-Collagen-Protein-Worth-the-Hype?' element={<Collagen_Protein/>}></Route>
+        <Route path='/Jonathan-Siegrist:Easy-Sends-Don’t-Improve-Your-Climbing' element={<Improve_Climbing/>}></Route>
+        <Route path='/Try-This-45-minute-Circuit-Workout' element={<Circuit_Workout/>}></Route>
+        <Route path='/Optimize-Your-Climbing-Performance' element={<Climbing_Performance/>}></Route>
+        <Route path='/Stop-Overgripping!-Here’s-How' element={<Overgripping/>}></Route>
 
         {/* nutrition */}
+        <Route path='/Why-You-Should-Probably-Supplement-Vitamin-D' element={<VitaminD/>}></Route>
+        <Route path='/Good-To-Go-Meals-a-lightweight-climbing-food' element={<Lightweight/>}></Route>
+        <Route path='/Why-The-Keto-Diet-Will-Hurt-Your-Climbing' element={<TheKetoDiet/>}></Route>
+        <Route path='/Can-Going-Vegan' element={<Vegan/>}></Route>
+        <Route path='/Are-Vitamins-Harmful?' element={<Vitamins_Harmful/>}></Route>
+
 
         {/* gear */}
         <Route path='/indispensable-tool' element={<Indispensable/>}></Route>
