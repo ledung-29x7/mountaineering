@@ -12,11 +12,11 @@ const Location =()=>{
             <Link className='intro' to={`/Complete-Guide-to-Mount-Everest`}>
                 <IntroComponent pic={Taybac} title="Complete Guide to Mount Everest" intro='Mount Everest is located between the border between Nepal and Tibet on the roof of the world in the Himalayas....' ></IntroComponent>
             </Link>
-            <Link className='intro' to={`/`}>
-                <IntroComponent pic={Taybac} title="Địa điểm leo núi ở miền bắc" intro='...' ></IntroComponent>
+            <Link className='intro' to={`/Mont-Blanc-is-the-highest-peak-in-the-Western-Alps`}>
+                <IntroComponent pic={Taybac} title="Mont Blanc is the highest peak in the Western Alps" intro='Find out all about mountaineering and climbing to the Mont Blanc summit — about the routes, huts, and the how to prepare for this once-in-a-lifetime experience.' ></IntroComponent>
             </Link>
-            <Link className='intro' to={`/`}>
-                <IntroComponent pic={Taybac} title="Địa điểm leo núi ở miền bắc" intro='...' ></IntroComponent>
+            <Link className='intro' to={`/9-Himalayan-peaks-that-are-perfect-for-beginners-to-mountaineering`}>
+                <IntroComponent pic={Taybac} title="9 Himalayan peaks that are perfect for beginners to mountaineering" intro='list some Himalayan peaks that mountaineering beginners can put on top of their to-do list.' ></IntroComponent>
             </Link>
             <Link className='intro' to={`/`}>
                 <IntroComponent pic={Taybac} title="Địa điểm leo núi ở miền bắc" intro='...' ></IntroComponent>

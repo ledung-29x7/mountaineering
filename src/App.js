@@ -79,6 +79,15 @@ import Carabiners from './page/gear/detail/carabiners';
   //location
   import SonDoongCave from './page/location/detail/SonDoongCave';
   import EverestMount from './page/location/detail/EverestMount';
+  import Mont_Blanc from './page/location/detail/Mont_Blanc';
+  import Himalayan from './page/location/detail/himalayan';
+  
+  
+  //  clubs
+  import AAC from './page/Clubs/detail/AmericanAlpineClub';
+  import TheJapanMountaineeringAssociation from './page/Clubs/detail/The JapanMountaineeringAssociation';
+  import TheHimalayanClub from './page/Clubs/detail/TheHimalayanClub';
+  import TheNewZealandAlpineClub from './page/Clubs/detail/TheNewZealandAlpineClub';
 
 function App() {
   return (
@@ -161,7 +170,15 @@ function App() {
         {/* location */}
         <Route path='/SonDoongCave' element={<SonDoongCave/>}></Route>
         <Route path='/Complete-Guide-to-Mount-Everest' element={<EverestMount/>}></Route>
+        <Route path='/Mont-Blanc-is-the-highest-peak-in-the-Western-Alps' element={<Mont_Blanc/>}></Route>
+        <Route path='/9-Himalayan-peaks-that-are-perfect-for-beginners-to-mountaineering' element={<Himalayan/>}></Route>
 
+        {/* clubs */}
+
+        <Route path='/American-Alpine-Club' element={<AAC/>}></Route>
+        <Route path='/The-Japan-Mountaineering-Association' element={<TheJapanMountaineeringAssociation/>}></Route>
+        <Route path='/The-Himalayan-Club' element={<TheHimalayanClub/>}></Route>
+        <Route path='/The-New-Zealand-Alpine-Club' element={<TheNewZealandAlpineClub/>}></Route>
 
       </Routes>
     </BrowserRouter>
