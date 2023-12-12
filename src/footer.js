@@ -2,8 +2,6 @@ import React from 'react';
 import './footer.css';
 import logo from './img/logo2.png'
 import { Link } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
-import { Router,Routes, Route } from 'react-router-dom';
 
 
 const Footer = () => {
