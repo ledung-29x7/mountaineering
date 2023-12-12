@@ -26,15 +26,18 @@ const divStyle = {
 const slideImages = [
   {
     url: 'https://vnn-imgs-f.vgcloud.vn/2020/02/03/06/hoa-hau-h-hen-nie-va-hanh-trinh-tham-hiem-hang-son-doong-3.jpg',
-    caption: "Miss H'Hen Nie and her journey to explore Son Doong cave"
+    caption: "Miss H'Hen Nie and her journey to explore Son Doong cave",
+    pages:'/Miss-HHen-Nie-and-her-journey-to-explore-Son-Doong-cave'
   },
   {
     url: 'https://www.climber.co.uk/images/News%202023/20230331_Sharma_Sleeping_Lion.jpg',
-    caption: "Chris Sharma's Sleeping Lion Project"
+    caption: "Chris Sharma's Sleeping Lion Project",
+    pages:"http://localhost:3000/Chris-Sharmas-Sleeping-Lion-Project"
   },
   {
     url: 'https://news.coreyrich.com/wp-content/uploads/2021/04/200606240205CR_c1-copy.jpg',
-    caption: 'Chris Sharma First Ascent of Es Pontás Mallorca'
+    caption: 'Chris Sharma First Ascent of Es Pontás Mallorca',
+    pages:"/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca"
   },
 ];
 
@@ -79,7 +82,7 @@ const support =()=>{
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <Link style={{textDecoration:'none'}}>
+              <Link to={slideImage.pages} style={{textDecoration:'none'}}>
               <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
                 <span style={spanStyle}>{slideImage.caption}</span>
               </div>

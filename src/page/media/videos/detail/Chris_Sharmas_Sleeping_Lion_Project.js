@@ -1,6 +1,6 @@
 import React from "react";
 import '../../../css/dt.css';
-import video1 from '../../../../videos/Chris Sharmas Sleeping Lion Project  Raw Attempts_1080p.mp4';
+import video1 from '../../../../videos/Chris_Sharmas_Sleeping_Lion_Project.mp4';
 
 
 const Chris_Sharmas =()=>{
