@@ -1,6 +1,6 @@
 import React from "react";
 import '../../../css/dt.css';
-import video1 from '../../../../videos/Chris Sharmas First Ascent of Es Pontás Mallorca_1080p.mp4';
+import video1 from '../../../../videos/Chris_Sharmas_First_Ascent _of _Es_Pontas_Mallorca.mp4';
 
 
 const Mallorca =()=>{
