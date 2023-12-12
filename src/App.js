@@ -58,6 +58,15 @@ import Backpack from './page/gear/detail/climbing_backpack';
 import Carabiners from './page/gear/detail/carabiners';
 
 
+//News
+import NEOM_Beach_Games from './page/News/detail/NEOM_Beach_Games';
+import Rare_Upgrade from './page/News/detail/Rare_Upgrade';
+import Jesse_Grupper from './page/News/detail/Jesse_Grupper';
+import Kai_Lightner from './page/News/detail/Kai_Lightner';
+import Groundfall from './page/News/detail/Groundfall';
+import Experienced_Guide from './page/News/detail/Experienced_Guide';
+import American_Trio_Blazes from './page/News/detail/American_Trio_Blazes';
+
 function App() {
   return (
     <BrowserRouter basename='/'>
@@ -116,6 +125,16 @@ function App() {
         <Route path='/backpack' element={<Backpack/>}></Route>
         <Route path='/carabiners' element={<Carabiners/>}></Route>
         <Route path='/outdoorshoes' element={<Outdoorshoes/>}></Route>
+
+        {/* News */}
+
+        <Route path='/Letter-to-IFSC-Cites-Disappointment-Over-NEOM-Beach-Games' element={<NEOM_Beach_Games/>}></Route>
+        <Route path='/Jakob-Schubert-Offers-a-Rare-Upgrade' element={<Rare_Upgrade/>}></Route>
+        <Route path='/Jesse-Grupper-on-Winning-Golds' element={<Jesse_Grupper/>}></Route>
+        <Route path='/Kai-Lightner-Just-Did-His-Hardest-Route-in-Eight-Years' element={<Kai_Lightner/>}></Route>
+        <Route path='/Sling-Jams-Micro-Traxion' element={<Groundfall/>}></Route>
+        <Route path='/Experienced-Guide-Dies-on-Cerro-Marmolejo' element={<Experienced_Guide/>}></Route>
+        <Route path='/American-Trio-Blazes' element={<American_Trio_Blazes/>}></Route>
       </Routes>
     </BrowserRouter>
   );
