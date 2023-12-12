@@ -1,0 +1,18 @@
+
+.intro{
+    width: 300px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    /* background-color: rgba(0, 0,0,0.5); */
+    
+}
+.locations,
+.knowledges,
+.gears{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+}

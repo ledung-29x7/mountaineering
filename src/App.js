@@ -1,0 +1,187 @@
+import React from 'react';
+import { BrowserRouter ,Route,Routes} from "react-router-dom";
+import './App.css';
+import Navbarmenu from './page/layout/Navbarmenu';
+import Home from './page/home/Home'
+import Overview from './page/knowledge/overview/overview';
+import Techniques from './page/knowledge/techniques/Climbing_techniques';
+import Training from './page/knowledge/training/training';
+import Nutrition from './page/knowledge/nutrition/nutrition';
+import Location from './page/location/location';
+import Gear from './page/gear/gear';
+import News from './page/News/News';
+import Clubs from './page/Clubs/clubs';
+import Videos from './page/media/videos/videos';
+import Photos from './page/media/photos/photos';
+// import Support from './components/support';
+
+// overview detail
+import Types from './page/knowledge/overview/detail/types'
+import History from './page/knowledge/overview/detail/history_techniques'
+import Communication from './page/knowledge/overview/detail/communication'
+import Terrain from './page/knowledge/overview/detail/terrain'
+import Rating from './page/knowledge/overview/detail/rating'
+import Mountaineering from './page/knowledge/overview/detail/mountaineering';
+
+// techniques
+import Finger_crack from './page/knowledge/techniques/detail/finger_cracks';
+import Snow_Anchors from './page/knowledge/techniques/detail/snow_anchors'
+import SnowTechniques from './page/knowledge/techniques/detail/Snow Techniques';
+import UseCrampons from './page/knowledge/techniques/detail/UseCrampons';
+import UseIceAxe from './page/knowledge/techniques/detail/Use_an_Ice_Axe';
+import Tradclimbing from './page/knowledge/techniques/detail/tradclimbing';
+import RouteFinding from './page/knowledge/techniques/detail/RouteFinding';
+import GlacierandRoped from './page/knowledge/techniques/detail/Glacier_and_Roped';
+import CrevasseRescue from './page/knowledge/techniques/detail/Crevasse_Rescue';
+import CrackClimbing from './page/knowledge/techniques/detail/Crack_Climbing';
+import BuildAnchors from './page/knowledge/techniques/detail/Build_Anchors';
+import Avalanche from './page/knowledge/techniques/detail/Avalanche';
+import Belay from './page/knowledge/techniques/detail/Belay';
+
+// training
+import Train_for_Rock from './page/knowledge/training/detail/Train_for_Rock';
+import Train_Everywhere from './page/knowledge/training/detail/Train_Everywhere';
+import Non_Climbing from './page/knowledge/training/detail/Non_Climbing';
+import Dynamic_Climbing from './page/knowledge/training/detail/Dynamic_Climbing';
+import Keep_Training from './page/knowledge/training/detail/Keep_Training';
+import Training_Around from './page/knowledge/training/detail/Training_Around';
+import Training_Worth from './page/knowledge/training/detail/Training_Worth';
+import Collagen_Protein from './page/knowledge/training/detail/Collagen_Protein';
+import Improve_Climbing from './page/knowledge/training/detail/Improve_Climbing';
+import Circuit_Workout from './page/knowledge/training/detail/Circuit_Workout';
+import Climbing_Performance from './page/knowledge/training/detail/Climbing_Performance';
+import Overgripping from './page/knowledge/training/detail/Overgripping';
+
+//nutrition
+import VitaminD from './page/knowledge/nutrition/detail/VitaminD';
+import Lightweight from './page/knowledge/nutrition/detail/lightweight';
+import TheKetoDiet from './page/knowledge/nutrition/detail/TheKetoDiet';
+import Vegan from './page/knowledge/nutrition/detail/Vegan';
+import Vitamins_Harmful from './page/knowledge/nutrition/detail/Vitamins_Harmful';
+
+// gear
+import Indispensable from './page/gear/detail/Indispensable_tool';
+import Camping_tents from './page/gear/detail/camping_tents';
+import Stakes from './page/gear/detail/stakes';
+import Outdoorshoes from './page/gear/detail/outdoorshoes';
+import Backpack from './page/gear/detail/climbing_backpack';
+import Carabiners from './page/gear/detail/carabiners';
+
+// media
+  //videos
+  import Chris_Sharmas from './page/media/videos/detail/Chris_Sharmas_Sleeping_Lion_Project';
+  import Mallorca from './page/media/videos/detail/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca';
+
+  //photos
+  import Hhen from './page/media/photos/detail/hhen';
+
+
+  //location
+  import SonDoongCave from './page/location/detail/SonDoongCave';
+  import EverestMount from './page/location/detail/EverestMount';
+  import Mont_Blanc from './page/location/detail/Mont_Blanc';
+  import Himalayan from './page/location/detail/himalayan';
+  
+  
+  //  clubs
+  import AAC from './page/Clubs/detail/AmericanAlpineClub';
+  import TheJapanMountaineeringAssociation from './page/Clubs/detail/The JapanMountaineeringAssociation';
+  import TheHimalayanClub from './page/Clubs/detail/TheHimalayanClub';
+  import TheNewZealandAlpineClub from './page/Clubs/detail/TheNewZealandAlpineClub';
+
+function App() {
+  return (
+    <BrowserRouter basename='/'>
+      <Navbarmenu/>
+      <Routes>
+        <Route exact  path='/' element={<Home/>}></Route>
+        <Route path='/overview' element={<Overview/>}></Route>
+        <Route path='/techniques' element={<Techniques/>}></Route>
+        <Route path='/training' element={<Training/>}></Route>
+        <Route path='/nutrition' element={<Nutrition/>}></Route>
+        <Route path='/Location' element={<Location/>}></Route>
+        <Route path='/gear' element={<Gear/>}></Route>
+        <Route path='/News' element={<News/>}></Route>
+        <Route path='/clubs' element={<Clubs/>}></Route>
+        <Route path='/videos' element={<Videos/>}></Route>
+        <Route path='/photos' element={<Photos/>}></Route>
+        {/* <Route path='/support' element={<Support/>}></Route> */}
+
+        {/* overview detail */}
+        <Route path='/types' element={<Types/>}></Route>
+        <Route path='/history' element={<History/>}></Route>
+        <Route path='/communication' element={<Communication/>}></Route>
+        <Route path='/terrain' element={<Terrain/>}></Route>
+        <Route path='/rating' element={<Rating/>}></Route>
+        <Route path='/mountaineering' element={<Mountaineering/>}></Route>
+        {/* techniques */}
+        <Route path='/finger-cracks' element={<Finger_crack/>}></Route>
+        <Route path='/Snow-Anchors-for-Mountaineering' element={<Snow_Anchors/>}></Route>
+        <Route path='/Snow-Travel-Techniques-for-Mountaineering' element={<SnowTechniques/>}></Route>
+        <Route path='/How-to-Use-Crampons' element={<UseCrampons/>}></Route>
+        <Route path='/How-to-Use-an-Ice-Axe-for-Mountaineering' element={<UseIceAxe/>}></Route>
+        <Route path='/Trad-Climbing-Basics' element={<Tradclimbing/>}></Route>
+        <Route path='/Route-Finding-and-Navigation-for-Mountaineering' element={<RouteFinding/>}></Route>
+        <Route path='/Glacier-and-Roped-Travel-for-Mountaineering' element={<GlacierandRoped/>}></Route>
+        <Route path='/Crevasse-Rescue-Skills' element={<CrevasseRescue/>}></Route>
+        <Route path='/Getting-Started-Crack-Climbing' element={<CrackClimbing/>}></Route>
+        <Route path='/How-to-Build-Anchors-for-Climbing' element={<BuildAnchors/>}></Route>
+        <Route path='/How-to-Belay' element={<Belay/>}></Route>
+        <Route path='/Avalanche-Rescue-Overview' element={<Avalanche/>}></Route>
+
+        {/* training */}
+        <Route path='/Train-for-Rock-Climbing' element={<Train_for_Rock/>}></Route>
+        <Route path='/How-to-Train-Everywhere-and-Anywhere' element={<Train_Everywhere/>}></Route>
+        <Route path='/How-to-Train-for-Climbing-in-a-Non-Climbing-Gym' element={<Non_Climbing/>}></Route>
+        <Route path='/How-Climber-Should-Train-for-Dynamic-Movement' element={<Dynamic_Climbing/>}></Route>
+        <Route path='/How-To-Know-When-To-Keep-Training-And-When-To-Quit' element={<Keep_Training/>}></Route>
+        <Route path='/Build-Your-Training-Around-Your-Life' element={<Training_Around/>}></Route>
+        <Route path='/Is-Training-Worth-Your-Time?' element={<Training_Worth/>}></Route>
+        <Route path='/Is-Collagen-Protein-Worth-the-Hype?' element={<Collagen_Protein/>}></Route>
+        <Route path='/Jonathan-Siegrist:Easy-Sends-Don’t-Improve-Your-Climbing' element={<Improve_Climbing/>}></Route>
+        <Route path='/Try-This-45-minute-Circuit-Workout' element={<Circuit_Workout/>}></Route>
+        <Route path='/Optimize-Your-Climbing-Performance' element={<Climbing_Performance/>}></Route>
+        <Route path='/Stop-Overgripping!-Here’s-How' element={<Overgripping/>}></Route>
+
+        {/* nutrition */}
+        <Route path='/Why-You-Should-Probably-Supplement-Vitamin-D' element={<VitaminD/>}></Route>
+        <Route path='/Good-To-Go-Meals-a-lightweight-climbing-food' element={<Lightweight/>}></Route>
+        <Route path='/Why-The-Keto-Diet-Will-Hurt-Your-Climbing' element={<TheKetoDiet/>}></Route>
+        <Route path='/Can-Going-Vegan' element={<Vegan/>}></Route>
+        <Route path='/Are-Vitamins-Harmful?' element={<Vitamins_Harmful/>}></Route>
+
+
+        {/* gear */}
+        <Route path='/indispensable-tool' element={<Indispensable/>}></Route>
+        <Route path='/camping-tents' element={<Camping_tents/>}></Route>
+        <Route path='/stakes' element={<Stakes/>}></Route>
+        <Route path='/backpack' element={<Backpack/>}></Route>
+        <Route path='/carabiners' element={<Carabiners/>}></Route>
+        <Route path='/outdoorshoes' element={<Outdoorshoes/>}></Route>
+
+
+        {/* videos */}
+        <Route path='/Chris-Sharmas-Sleeping-Lion-Project' element={<Chris_Sharmas/>}></Route>
+        <Route path='/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca' element={<Mallorca/>}></Route>
+
+        {/* photos */}
+        <Route path='/Miss-HHen-Nie-and-her-journey-to-explore-Son-Doong-cave' element={<Hhen/>}></Route>
+
+        {/* location */}
+        <Route path='/SonDoongCave' element={<SonDoongCave/>}></Route>
+        <Route path='/Complete-Guide-to-Mount-Everest' element={<EverestMount/>}></Route>
+        <Route path='/Mont-Blanc-is-the-highest-peak-in-the-Western-Alps' element={<Mont_Blanc/>}></Route>
+        <Route path='/9-Himalayan-peaks-that-are-perfect-for-beginners-to-mountaineering' element={<Himalayan/>}></Route>
+
+        {/* clubs */}
+
+        <Route path='/American-Alpine-Club' element={<AAC/>}></Route>
+        <Route path='/The-Japan-Mountaineering-Association' element={<TheJapanMountaineeringAssociation/>}></Route>
+        <Route path='/The-Himalayan-Club' element={<TheHimalayanClub/>}></Route>
+        <Route path='/The-New-Zealand-Alpine-Club' element={<TheNewZealandAlpineClub/>}></Route>
+
+      </Routes>
+    </BrowserRouter>
+  );
+}
+export default App;
