@@ -13,7 +13,8 @@ const Home = ()=>{
         'font-size':'24px',
         'font-weight': '700',
         'text-decoration':'none',
-        'padding-top':'200px'
+        'padding':'20px',
+        'background-color':'rgba(0,0,0,0.5)'
       }
       const divStyle = {
         display: 'flex',
@@ -38,7 +39,7 @@ const Home = ()=>{
         {
           url: 'https://media.baoquangninh.vn/upload/image/202201/medium/1932439_6123d0e54971ad0f26471f602462b73b.jpg',
           caption: 'Explore Son Doong cave',
-          pages: '/location'
+          pages: '/SonDoongCave'
         },
       ];
       // slider News
@@ -56,7 +57,7 @@ const Home = ()=>{
         {
           url: 'https://media.baoquangninh.vn/upload/image/202201/medium/1932439_6123d0e54971ad0f26471f602462b73b.jpg',
           caption: 'Explore Son Doong cave',
-          pages: '/location'
+          pages: '/SonDoongCave'
         },
       ];
 
@@ -142,7 +143,6 @@ const Home = ()=>{
                         </Link>
                         ))}
                     </div>
-                    <h3 className='items'>hello</h3>
         </div>
         <div className='right'>
             <h3 className='items2'>Mountain Climbing Experience</h3>

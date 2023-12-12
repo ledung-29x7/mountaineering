@@ -1,6 +1,10 @@
-
+import React from 'react';
 import './footer.css';
 import logo from './img/logo2.png'
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { Router,Routes, Route } from 'react-router-dom';
+
 
 const Footer = () => {
     return (
@@ -13,6 +17,24 @@ const Footer = () => {
                         <a path='https://www.facebook.com/' ><i className="fa-brands fa-pinterest"></i></a>
                         <a src={``}><i className="fa-brands fa-facebook"></i></a>
                     </div>
+                </div>
+                <div className='Nav_footer'>
+                    <ul style={{listStyleType:'none'}}>
+                        <li>
+                            Knowledge
+                            <ul style={{listStyleType:'none'}}>
+                                <li>overview</li>
+                                <li>Techniques</li>
+                                <li>Training</li>
+                                <li>Nutrition</li>
+                            </ul>
+                        </li>
+                            <li>Location</li>
+                            <li>Gear</li>
+                            <li>News</li>
+                            <li>Clubs</li>
+                            <li>Media</li>
+                    </ul>
                 </div>
                 <div className='contact'>
                     <img className='logo_footer' src={logo}></img>

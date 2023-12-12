@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../css/dt.css';
 import ReactPlayer from 'react-player';
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/Crack_Climbing/1.avif';
 import img2 from '../../../../img/knowledge/techniques/Crack_Climbing/2.avif';
 import img3 from '../../../../img/knowledge/techniques/Crack_Climbing/3.avif';
@@ -9,6 +10,26 @@ import img5 from '../../../../img/knowledge/techniques/Crack_Climbing/5.avif';
 import img6 from '../../../../img/knowledge/techniques/Crack_Climbing/6.avif';
 import img7 from '../../../../img/knowledge/techniques/Crack_Climbing/7.avif';
 const CrackClimbing = () =>{
+    const posts=[
+        {
+            pic:"/techniques/intro/11.jpeg",
+            title:"How to Build Anchors for Climbing" ,
+            intro:"A climbing anchor is a system made up of individual anchor points that are linked together to create a master point .......",
+            pages:"/How-to-Build-Anchors-for-Climbing"
+        },
+        {
+            pic:"/techniques/intro/12.avif",
+            title:"How to Belay" ,
+            intro:"Typically, every roped climber clinging to a rock face or gym wall has a partner performing a critical role on the ground........",
+            pages:"/How-to-Belay"
+        },
+        {
+            pic:"/techniques/intro/13.webp" ,
+            title:"Avalanche Rescue Overview" ,
+            intro:"Anyone who enjoys winter recreation and ventures beyond carefully managed environments (like ski resorts) needs to be both avalanche aware and rescue ready........",
+            pages:"/Avalanche-Rescue-Overview"
+        }
+    ]
     return(
         <div className='test'>
             <h1>Getting Started Crack Climbing</h1>
@@ -83,7 +104,8 @@ const CrackClimbing = () =>{
             <p>Slipper-style shoes have an even slimmer profile than lace-up shoes, making them a good choice for very thin cracks.</p>
             <p>Stiffness: With a shoe that’s too soft, you’ll feel every sharp edge when you jam your foot. With a shoe that’s too stiff you won’t have enough sensitivity to stand on small edges or smear. Look for a shoe that strikes a balance. If you frequently climb hand-sized cracks and wider, shoes on the stiffer end of the spectrum will give you support to make the climbing easier and more comfortable.</p>
             <p>Most climbing shoes have low-cut ankles, however, some shoes are designed to cover the anklebones, providing protection for climbing wider cracks.</p>
-            
+             {/* related articles */}
+             <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

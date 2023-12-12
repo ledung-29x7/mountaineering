@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/dt.css'
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/RouteFinding/1.avif';
 import img2 from '../../../../img/knowledge/techniques/RouteFinding/2.avif';
 import img3 from '../../../../img/knowledge/techniques/RouteFinding/3.avif';
@@ -11,6 +12,26 @@ import img8 from '../../../../img/knowledge/techniques/RouteFinding/8.avif';
 import img9 from '../../../../img/knowledge/techniques/RouteFinding/9.avif';
 import img10 from'../../../../img/knowledge/techniques/RouteFinding/10.avif';
 const RouteFinding = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/3.avif",
+            title:"Snow Travel Techniques for Mountaineering",
+            intro:"Knowing how to safely and efficiently travel on snow slopes is a fundamental skill......",
+            pages:"/Snow-Travel-Techniques-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/4.avif",
+            title:"How to Use Crampons",
+            intro:"Whether you’re summitting a big mountain or crossing a snowfield while hiking at higher elevations......",
+            pages:"/How-to-Use-Crampons"
+        },
+        {
+            pic:"/techniques/intro/8.avif",
+            title:"Glacier and Roped Travel for Mountaineering",
+            intro:"If you have dreams of scaling a glaciated peak like Mount Rainier or Denali, you’ll need to know how to travel across.......",
+            pages:"/Glacier-and-Roped-Travel-for-Mountaineering"
+        },
+    ]
     return(
         <div className='test'>
             <h1>Route Finding and Navigation for Mountaineering</h1>
@@ -72,6 +93,9 @@ const RouteFinding = () =>{
                 <li>Stop moving: Sometimes the best option will be to stop moving and wait out the weather. If you don’t feel you can safely continue, either up or down the mountain, then you may be better off hunkering down until there’s better visibility.</li>
             </ul>
             <h3>Climbing safety is your responsibility. No article or video can replace qualified instruction and experience.</h3>
+
+             {/* related articles */}
+             <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

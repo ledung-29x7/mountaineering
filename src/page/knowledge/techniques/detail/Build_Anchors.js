@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/dt.css';
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/build_anchors/1.avif';
 import img2 from '../../../../img/knowledge/techniques/build_anchors/2.avif';
 import img3 from '../../../../img/knowledge/techniques/build_anchors/3.avif';
@@ -11,6 +12,26 @@ import img8 from '../../../../img/knowledge/techniques/build_anchors/8.avif';
 import img9 from '../../../../img/knowledge/techniques/build_anchors/9.avif';
 
 const BuildAnchors = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/9.avif",
+            title:"Crevasse Rescue Skills",
+            intro:"Rescue skills are critical in mountaineering. As you’re traveling on glaciated terrain,.......",
+            pages:"/Crevasse-Rescue-Skills"
+        },
+        {
+            pic:"/techniques/intro/10.avif",
+            title:"Getting Started Crack Climbing" ,
+            intro:"A crack that runs up a cliff face presents an obvious line to follow while climbing........",
+            pages:"/Getting-Started-Crack-Climbing"
+        },
+        {
+            pic:"/techniques/intro/11.jpeg",
+            title:"How to Build Anchors for Climbing" ,
+            intro:"A climbing anchor is a system made up of individual anchor points that are linked together to create a master point .......",
+            pages:"/How-to-Build-Anchors-for-Climbing"
+        },
+    ]
     return(
         <div className='test'>
             <h1>How to Build Anchors for Climbing</h1>
@@ -118,6 +139,8 @@ const BuildAnchors = () =>{
             <p>When you can, construct the anchor so the master point is located between your chest and just above your head. This generally allows for efficient belaying from a comfortable stance.</p>
             <p>If you.re building an anchor using a cordelette, you can raise the master point by tying a figure nine knot rather than a figure eight. The figure nine uses more of the cordelette, thereby raising the master point. To tie a figure nine, start like you’re tying a figure eight, but wrap the cord around one additional time before completing the eight.</p>
             <h5>Always remember: </h5><p>Your safety is your responsibility. No article or video can replace proper instruction and experience. Make sure you’re practiced in proper techniques and safety requirements before you climb.</p>
+             {/* related articles */}
+             <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

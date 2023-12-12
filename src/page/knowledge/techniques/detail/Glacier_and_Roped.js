@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/dt.css'
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/Glacier_and_Roped/1.avif';
 import img2 from '../../../../img/knowledge/techniques/Glacier_and_Roped/2.avif';
 import img3 from '../../../../img/knowledge/techniques/Glacier_and_Roped/3.avif';
@@ -12,6 +13,26 @@ import img9 from '../../../../img/knowledge/techniques/Glacier_and_Roped/9.avif'
 import img10 from '../../../../img/knowledge/techniques/Glacier_and_Roped/10.avif';
 
 const GlacierandRoped = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/2.jpeg",
+            title:"Snow Anchors for Mountaineering",
+            intro:"When you’re mountaineering, you’ll build snow anchors for added protection when traveling on a glacier, crossing steep slopes......",
+            pages:"/Snow-Anchors-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/3.avif",
+            title:"Snow Travel Techniques for Mountaineering",
+            intro:"Knowing how to safely and efficiently travel on snow slopes is a fundamental skill......",
+            pages:"/Snow-Travel-Techniques-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/5.jpeg",
+            title:"How to Use an Ice Axe for Mountaineering",
+            intro:"The ice axe, for many, is a mountaineering symbol that evokes images of rugged glaciated peaks and above-the-cloud summits.......",
+            pages:"/How-to-Use-an-Ice-Axe-for-Mountaineering"
+        },
+    ]
     return(
         <div className='test'>
             <h1>Glacier and Roped Travel for Mountaineering</h1>
@@ -88,6 +109,8 @@ const GlacierandRoped = () =>{
             <img className='img_bv' src={img10}></img>
             <p>The last climber removes the anchor and stashes it.</p>
             <p>Belaying: There may be times when a running belay isn’t sufficient protection and you want a full-on belay. In such cases, you’ll stop and build an equalized anchor and use the rope to belay individual climbers across a steep section in the same way you would in rock climbing.</p>
+            {/* related articles */}
+            <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/dt.css';
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/UseCrampons/1.avif';
 import img2 from '../../../../img/knowledge/techniques/UseCrampons/2.avif';
 import video3 from '../../../../img/knowledge/techniques/UseCrampons/3.mp4';
@@ -10,6 +11,26 @@ import img7 from '../../../../img/knowledge/techniques/UseCrampons/7.avif';
 import img8 from '../../../../img/knowledge/techniques/UseCrampons/8.avif';
 
 const UseCrampons = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/2.jpeg",
+            title:"Snow Anchors for Mountaineering",
+            intro:"When you’re mountaineering, you’ll build snow anchors for added protection when traveling on a glacier, crossing steep slopes......",
+            pages:"/Snow-Anchors-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/3.avif",
+            title:"Snow Travel Techniques for Mountaineering",
+            intro:"Knowing how to safely and efficiently travel on snow slopes is a fundamental skill......",
+            pages:"/Snow-Travel-Techniques-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/5.jpeg",
+            title:"How to Use an Ice Axe for Mountaineering",
+            intro:"The ice axe, for many, is a mountaineering symbol that evokes images of rugged glaciated peaks and above-the-cloud summits.......",
+            pages:"/How-to-Use-an-Ice-Axe-for-Mountaineering"
+        },
+    ]
     return(
         <div className='test'>
             <h1>How to Use Crampons</h1>
@@ -92,7 +113,8 @@ const UseCrampons = () =>{
             <h2>When to Take off Crampons</h2>
             <img className='img_bv' src={img8}></img>
             <p>Once you’ve reached an area that is flatter or the snow softens up enough that you don’t need crampons, find a flat safe spot to take them off. Don’t take them off until you’re in terrain where the consequences of falling are low or where it would be more dangerous to wear them, such as sloppy wet snow or snow that’s shin-deep.</p>
-            
+            {/* related articles */}
+            <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

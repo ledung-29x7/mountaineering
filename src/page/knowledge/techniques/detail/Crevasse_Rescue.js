@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/dt.css';
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/Crevasse_Rescue/1.avif';
 import img2 from '../../../../img/knowledge/techniques/Crevasse_Rescue/2.avif';
 import img3 from '../../../../img/knowledge/techniques/Crevasse_Rescue/3.avif';
@@ -18,6 +19,26 @@ import img15 from '../../../../img/knowledge/techniques/Crevasse_Rescue/15.avif'
 import img16 from '../../../../img/knowledge/techniques/Crevasse_Rescue/16.avif';
 
 const CrevasseRescue = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/1.avif",
+            title:"How to Climb Finger Cracks ?",
+            intro:"If you have basic crack climbing technique but are ready to step it up to the next level, it’s time to learn how to climb a finger crack......",
+            pages: "/finger-cracks"
+        },
+        {
+            pic:"/techniques/intro/2.jpeg",
+            title:"Snow Anchors for Mountaineering",
+            intro:"When you’re mountaineering, you’ll build snow anchors for added protection when traveling on a glacier, crossing steep slopes......",
+            pages:"/Snow-Anchors-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/3.avif",
+            title:"Snow Travel Techniques for Mountaineering",
+            intro:"Knowing how to safely and efficiently travel on snow slopes is a fundamental skill......",
+            pages:"/Snow-Travel-Techniques-for-Mountaineering"
+        }
+    ]
     return(
         <div className='test'>
             <h1>Crevasse Rescue Skills</h1>
@@ -101,6 +122,8 @@ const CrevasseRescue = () =>{
             <p>4. Climber 1 now pulls on the rope (in the direction of the anchor) until the hauling prusik gets close to the anchor.</p>
             <img className='img_bv' src={img16}></img>
             <p>5. Then reset the system by sliding the hauling prusik back down toward the fallen climber. Haul again, repeating as needed.</p>
+             {/* related articles */}
+             <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

@@ -1,8 +1,30 @@
 import React from 'react';
 import '../../../css/dt.css';
 import img1 from '../../../../img/knowledge/techniques/Avalanche/1.avif';
+import Related_articles from '../../../../components/Related_articles';
 
 const Avalanche = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/1.avif",
+            title:"How to Climb Finger Cracks ?",
+            intro:"If you have basic crack climbing technique but are ready to step it up to the next level, it’s time to learn how to climb a finger crack......",
+            pages: "/finger-cracks"
+        },
+        {
+            pic:"/techniques/intro/2.jpeg",
+            title:"Snow Anchors for Mountaineering",
+            intro:"When you’re mountaineering, you’ll build snow anchors for added protection when traveling on a glacier, crossing steep slopes......",
+            pages:"/Snow-Anchors-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/3.avif",
+            title:"Snow Travel Techniques for Mountaineering",
+            intro:"Knowing how to safely and efficiently travel on snow slopes is a fundamental skill......",
+            pages:"/Snow-Travel-Techniques-for-Mountaineering"
+        }
+    ]
+
     return(
         <div className='test'>
             <h1>Avalanche Rescue Overview</h1>
@@ -71,6 +93,8 @@ const Avalanche = () =>{
             <h1>Practice Avalanche Skills</h1>
             <p>Because timelines for successful avalanche rescue are so tight, you need to re-hone your skills yearly or every other year by taking a refresher course. Many ski areas also have an area set up for people to practice their transceiver search skills. And shoveling technique is something you can practice any time you’re in snow country.</p>
             <p>Note: The material in this article is based on curriculum created by the American Institute of Avalanche Research and Education (AIARE). Its one-day Avalanche Rescue Course is taught at locations nationwide. Steps from that course are distilled in a pocket-size AIARE Quick Reference Rescue Card that you should carry and be able to quickly access in the event that you have to perform a rescue in the field. Having the card helps focus the rescuers by ensuring you don’t miss any steps or waste time trying to remember them. You can print your own card using the provided link, or get a laminated version that’s available from course providers and at avalanche awareness events around the country.</p>
+            {/* related articles */}
+            <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

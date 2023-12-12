@@ -1,5 +1,6 @@
 import React from "react";
 import '../../../css/dt.css'
+import Related_articles from "../../../../components/Related_articles";
 import img1 from '../../../../img/knowledge/techniques/Snow_Anchors/1.avif'
 import img2 from '../../../../img/knowledge/techniques/Snow_Anchors/2.avif'
 import img3 from '../../../../img/knowledge/techniques/Snow_Anchors/3.avif'
@@ -12,6 +13,26 @@ import img10 from '../../../../img/knowledge/techniques/Snow_Anchors/10.avif'
 
 
 const Snow_Anchors = ()=>{
+    const posts =[
+        {
+            pic:"/techniques/intro/4.avif",
+            title:"How to Use Crampons",
+            intro:"Whether you’re summitting a big mountain or crossing a snowfield while hiking at higher elevations......",
+            pages:"/How-to-Use-Crampons"
+        },
+        {
+            pic:"/techniques/intro/5.jpeg",
+            title:"How to Use an Ice Axe for Mountaineering",
+            intro:"The ice axe, for many, is a mountaineering symbol that evokes images of rugged glaciated peaks and above-the-cloud summits.......",
+            pages:"/How-to-Use-an-Ice-Axe-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/3.avif",
+            title:"Snow Travel Techniques for Mountaineering",
+            intro:"Knowing how to safely and efficiently travel on snow slopes is a fundamental skill......",
+            pages:"/Snow-Travel-Techniques-for-Mountaineering"
+        },
+    ]
     return(
         <div className="test">
         <h1>Snow Anchors for Mountaineering</h1>
@@ -64,6 +85,9 @@ const Snow_Anchors = ()=>{
             <li>Make sure the anchors are placed in different zones so that if one were to fail, the affected snow would not also cause the other anchor to fail. Usually a backup is upslope and to the side of the original anchor.</li>
             <li>Keep the angle formed by the attachment between the two pieces less than 60 degrees.</li>
         </ul>
+
+         {/* related articles */}
+         <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

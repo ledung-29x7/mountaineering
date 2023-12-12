@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/dt.css';
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/Snow_Techniques/1.avif';
 import img2 from '../../../../img/knowledge/techniques/Snow_Techniques/2.avif';
 import video3 from '../../../../img/knowledge/techniques/Snow_Techniques/3.mp4';
@@ -11,6 +12,26 @@ import video8 from '../../../../img/knowledge/techniques/Snow_Techniques/8.mp4';
 import img9 from '../../../../img/knowledge/techniques/Snow_Techniques/9.avif';
 import img10 from '../../../../img/knowledge/techniques/Snow_Techniques/10.avif';
 const SnowTechniques = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/2.jpeg",
+            title:"Snow Anchors for Mountaineering",
+            intro:"When you’re mountaineering, you’ll build snow anchors for added protection when traveling on a glacier, crossing steep slopes......",
+            pages:"/Snow-Anchors-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/4.avif",
+            title:"How to Use Crampons",
+            intro:"Whether you’re summitting a big mountain or crossing a snowfield while hiking at higher elevations......",
+            pages:"/How-to-Use-Crampons"
+        },
+        {
+            pic:"/techniques/intro/5.jpeg",
+            title:"How to Use an Ice Axe for Mountaineering",
+            intro:"The ice axe, for many, is a mountaineering symbol that evokes images of rugged glaciated peaks and above-the-cloud summits.......",
+            pages:"/How-to-Use-an-Ice-Axe-for-Mountaineering"
+        },
+    ]
     return(
         <div className='test'>
             <h1>Snow Travel Techniques for Mountaineering</h1>
@@ -104,6 +125,9 @@ const SnowTechniques = () =>{
                 <li>Stand in a skiing position with knees slightly bent and feet close together</li>
                 <li>Start sliding downhill keeping your body forward (with your nose over your toes)  </li>
             </ul>
+
+             {/* related articles */}
+             <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

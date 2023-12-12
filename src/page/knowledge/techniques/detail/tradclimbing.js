@@ -1,10 +1,31 @@
 import React from 'react';
 import '../../../css/dt.css';
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/tradclimbing/1.avif';
 import img2 from '../../../../img/knowledge/techniques/tradclimbing/2.webp';
 import img3 from '../../../../img/knowledge/techniques/tradclimbing/3.avif';
 
 const tradclimbing = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/1.avif",
+            title:"How to Climb Finger Cracks ?",
+            intro:"If you have basic crack climbing technique but are ready to step it up to the next level, it’s time to learn how to climb a finger crack......",
+            pages: "/finger-cracks"
+        },
+        {
+            pic:"/techniques/intro/11.jpeg",
+            title:"How to Build Anchors for Climbing" ,
+            intro:"A climbing anchor is a system made up of individual anchor points that are linked together to create a master point .......",
+            pages:"/How-to-Build-Anchors-for-Climbing"
+        },
+        {
+            pic:"/techniques/intro/12.avif",
+            title:"How to Belay" ,
+            intro:"Typically, every roped climber clinging to a rock face or gym wall has a partner performing a critical role on the ground........",
+            pages:"/How-to-Belay"
+        },
+    ]
     return(
         <div className='test'>
             <h1>Trad Climbing Basics</h1>
@@ -41,6 +62,9 @@ const tradclimbing = () =>{
             <p>First, spend some time on the ground. Go to the base of a climbing cliff and figure out how to fit wedges, cams and hexes into different features in the rock.</p>
             <p>Then try some short, easy pitches placing a variety of pieces—not just spring-loaded camming devices, which are easiest to place. Hanging on a rock face with 3 fingers and a couple of toes when you're 60 feet above the deck is not the best time to be wrestling with your rack, trying to figure out how to place pro.</p>
             <h4>Learn more about Trad Climbing Basics</h4>
+
+            {/* related articles */}
+         <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

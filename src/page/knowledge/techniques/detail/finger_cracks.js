@@ -1,5 +1,6 @@
 import React from "react";
 import '../../../css/dt.css';
+import Related_articles from "../../../../components/Related_articles";
 import ReactPlayer from "react-player";
 import img1 from '../../../../img/knowledge/techniques/finger_cracks/1.avif'
 import img2 from '../../../../img/knowledge/techniques/finger_cracks/2.avif'
@@ -7,6 +8,26 @@ import img3 from '../../../../img/knowledge/techniques/finger_cracks/3.avif'
 import img4 from '../../../../img/knowledge/techniques/finger_cracks/4.avif'
 
 const finger_cracks =()=>{
+    const posts =[
+        {
+            pic:"/techniques/intro/9.avif",
+            title:"Crevasse Rescue Skills",
+            intro:"Rescue skills are critical in mountaineering. As you’re traveling on glaciated terrain,.......",
+            pages:"/Crevasse-Rescue-Skills"
+        },
+        {
+            pic:"/techniques/intro/10.avif",
+            title:"Getting Started Crack Climbing" ,
+            intro:"A crack that runs up a cliff face presents an obvious line to follow while climbing........",
+            pages:"/Getting-Started-Crack-Climbing"
+        },
+        {
+            pic:"/techniques/intro/11.jpeg",
+            title:"How to Build Anchors for Climbing" ,
+            intro:"A climbing anchor is a system made up of individual anchor points that are linked together to create a master point .......",
+            pages:"/How-to-Build-Anchors-for-Climbing"
+        },
+    ]
     return(
         <div className="test">
             <h1>How to Climb Finger Cracks</h1>
@@ -50,7 +71,9 @@ const finger_cracks =()=>{
             <p>
                 Remember to look for holds outside the crack; face holds can be essential to climbing up a finger crack.
             </p>
-            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/finger-cracks" style={{color:"white"}} class="fb-xfbml-parse-ignore"><i style={{fontSize:"large", color:"white"}} class="fa-brands fa-facebook-f"></i>Share on Facebook</a></div>
+
+             {/* related articles */}
+             <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/dt.css';
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/belay/1.avif';
 import img2 from '../../../../img/knowledge/techniques/belay/2.avif';
 import img3 from '../../../../img/knowledge/techniques/belay/3.avif';
@@ -8,6 +9,27 @@ import img5 from '../../../../img/knowledge/techniques/belay/5.avif';
 import img6 from '../../../../img/knowledge/techniques/belay/6.avif';
 import img7 from '../../../../img/knowledge/techniques/belay/7.avif';
 const Belay = () =>{
+
+    const posts =[
+        {
+            pic:"/techniques/intro/6.avif" ,
+            title:"Trad Climbing Basics" ,
+            intro:"Traditional or trad climbing.The term didn't exist until the birth of pre-bolted climbing routes, or sport climbing........",
+            pages:"/Trad-Climbing-Basics"
+        },
+        {
+            pic:"/techniques/intro/7.avif",
+            title:"Route Finding and Navigation for Mountaineering",
+            intro:"Good route finding and navigation starts before you set foot on the mountain........",
+            pages:"/Route-Finding-and-Navigation-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/8.avif",
+            title:"Glacier and Roped Travel for Mountaineering",
+            intro:"If you have dreams of scaling a glaciated peak like Mount Rainier or Denali, you’ll need to know how to travel across.......",
+            pages:"/Glacier-and-Roped-Travel-for-Mountaineering"
+        }
+    ]
     return(
         <div className='test'>
             <h1>How to Belay</h1>
@@ -134,6 +156,8 @@ const Belay = () =>{
             <p>When the climber is standing on the ground, safely balanced on two feet, the climber yells “Off belay!” You respond by paying out plenty of slack and yelling “Belay off!”</p>
             <img className='img_bv' src={img7}></img>
             <h5>Remember: Climbing safety is your responsibility. No internet article or video can replace proper instruction and experience—this article is intended solely as supplemental information. Be sure you’re practiced in proper techniques and safety requirements before you climb.</h5>
+             {/* related articles */}
+             <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }

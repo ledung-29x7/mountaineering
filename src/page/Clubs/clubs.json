@@ -1,33 +1,27 @@
 [
     {
-        "pic" : "/nutrition/intro/1.jpeg",
+        "pic" : "/clubs/intro/aac.jpeg",
         "title" : "American Alpine Club",
-        "intro" : "Studies indicate Vitamin D impacts recovery, mood, immunity, and more. And chances are, if you're like over half of Americans, you're deficient.",
+        "intro" : "The American Alpine Club (AAC) is a non-profit member organization with more than 24,000 members....",
         "pages": "/American-Alpine-Club"
     },
     {
-        "pic" : "/nutrition/intro/2.jpeg",
+        "pic" : "/clubs/intro/jp.jpeg",
         "title" : "The Japan Mountaineering Association",
-        "intro" : "These meals are a worthy option for overnight climbers and campers who want to eat real, delicious food with a finite lifespan.",
+        "intro" : "The Japan Mountaineering Association is a mountaineering organization in Japan.",
         "pages": "/The-Japan-Mountaineering-Association"
     },
     {
-        "pic":"/nutrition/intro/3.jpeg",
+        "pic":"/clubs/intro/hymalayanclub.jpeg",
         "title":"The Himalayan Club",
-        "intro":"This high-fat low-carbohydrate diet will deplete your energy and can lead to health issues.",
+        "intro":"The Himalayan Club is an organization founded in India in 1928 along the lines of the Alpine Club...",
         "pages": "/The-Himalayan-Club"
     },
     {
-        "pic" : "/nutrition/intro/4.jpeg" ,
+        "pic" : "/clubs/intro/nzac.jpeg" ,
         "title" : "The New Zealand Alpine Club" ,
-        "intro" : "The benefits to giving up meat and dairy are wide ranging, but is the life-change suitable for you?",
+        "intro" : "The New Zealand Alpine Club (NZAC) was founded in 1891 and is one of the oldest alpine clubs in the world....",
         "pages": "/The-New-Zealand-Alpine-Club"
-    },
-    {
-        "pic" : "/nutrition/intro/5.jpeg",
-        "title" : "Are Vitamins Harmful? A Nutritionist Weighs In.",
-        "intro" : "We may think that because we participate in a physically difficult sport that vitamins will help make up for high output. Think again.",
-        "pages": "/Are-Vitamins-Harmful?"
     }
 
 

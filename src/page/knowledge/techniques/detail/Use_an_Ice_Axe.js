@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../css/dt.css'
+import Related_articles from '../../../../components/Related_articles';
 import img1 from '../../../../img/knowledge/techniques/Use_an_Ice_Axe/1.avif';
 import img2 from '../../../../img/knowledge/techniques/Use_an_Ice_Axe/2.avif';
 import img3 from '../../../../img/knowledge/techniques/Use_an_Ice_Axe/3.avif';
@@ -12,6 +13,26 @@ import video9 from '../../../../img/knowledge/techniques/Use_an_Ice_Axe/9.mp4';
 import video10 from '../../../../img/knowledge/techniques/Use_an_Ice_Axe/10.mp4';
 
 const UseIceAxe = () =>{
+    const posts =[
+        {
+            pic:"/techniques/intro/2.jpeg",
+            title:"Snow Anchors for Mountaineering",
+            intro:"When you’re mountaineering, you’ll build snow anchors for added protection when traveling on a glacier, crossing steep slopes......",
+            pages:"/Snow-Anchors-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/3.avif",
+            title:"Snow Travel Techniques for Mountaineering",
+            intro:"Knowing how to safely and efficiently travel on snow slopes is a fundamental skill......",
+            pages:"/Snow-Travel-Techniques-for-Mountaineering"
+        },
+        {
+            pic:"/techniques/intro/9.avif",
+            title:"Crevasse Rescue Skills",
+            intro:"Rescue skills are critical in mountaineering. As you’re traveling on glaciated terrain,.......",
+            pages:"/Crevasse-Rescue-Skills"
+        },
+    ]
     return(
         <div className='test'>
             <h1>How to Use an Ice Axe for Mountaineering</h1>
@@ -108,7 +129,8 @@ const UseIceAxe = () =>{
             <p>If you fall on your stomach (head downhill): As you are sliding, reach out and plant the pick of your axe into the snow. Then swing your body so your feet end up downhill.</p>
             <h1>How to Practice</h1>
             <p>As with all technical mountaineering skills, it’s best to sign up for a course to learn the proper technique and practice in real conditions on snow or glaciers. REI offers mountaineering courses for beginners. Many guiding companies or local alpine clubs also provide instruction in these skills.</p>
-            
+            {/* related articles */}
+            <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }
