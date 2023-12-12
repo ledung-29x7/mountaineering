@@ -45,19 +45,19 @@ const Home = ()=>{
       // slider News
       const slideImages2 = [
         {
-          url: 'https://cdn.climbing.com/wp-content/uploads/2023/12/Schubert-downgrade.png?crop=535:301&width=1070&enable=upscale',
-          caption: 'Jakob Schubert Offers a Rare Upgrade',
-          pages: '/gear'
+          url: "./News/1.jpg" ,
+          caption: "Letter to IFSC Cites Disappointment Over NEOM Beach Games",
+          pages: "/Letter-to-IFSC-Cites-Disappointment-Over-NEOM-Beach-Games"
         },
         {
-          url: 'https://www.rei.com/dam/rinckenberger_111815_4771_finger_crack_climbing_lg.jpg?t=ea16by9lg',
-          caption: 'How to Climb Finger Cracks ?',
-          pages: '/finger-cracks'
+          url: "./News/2.jpg",
+          caption: "Jakob Schubert Offers a Rare Upgrade",
+          pages: '/Jakob-Schubert-Offers-a-Rare-Upgrade'
         },
         {
-          url: 'https://media.baoquangninh.vn/upload/image/202201/medium/1932439_6123d0e54971ad0f26471f602462b73b.jpg',
-          caption: 'Explore Son Doong cave',
-          pages: '/SonDoongCave'
+          url: "./News/4.jpg",
+          caption: "Kai Lightner Just Did His Hardest Route in Eight Years",
+          pages: "/Kai-Lightner-Just-Did-His-Hardest-Route-in-Eight-Years"
         },
       ];
 

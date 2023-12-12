@@ -1,0 +1,51 @@
+[
+    {
+        "pic":"./News/1.jpg",
+        "title":"Letter to IFSC Cites Disappointment Over NEOM Beach Games",
+        "intro":"NEOM, a new city project being built on Saudi Arabia’s Red Sea coast, hosted an IFSC-sanctioned competition this past November. The city has been called an ecological disaster and a violation of human rights.",
+        "pages": "/Letter-to-IFSC-Cites-Disappointment-Over-NEOM-Beach-Games"
+    },
+
+    {
+        "pic":"./News/2.jpg",
+        "title":"Jakob Schubert Offers a Rare Upgrade",
+        "intro":"Plus: Jesse Grupper flashes 5.14c; Kai Whaley skips two grades to climb V16; Katie Lamb knocks down two more V14s; and a podcast host finds his best bouldering form yet, thanks to not training.",
+        "pages": "/Jakob-Schubert-Offers-a-Rare-Upgrade"
+    },
+
+    {
+        "pic":"./News/3.jpg",
+        "title":"Jesse Grupper on Winning Golds, Helping Others & Dealing with a Lifetime Disease",
+        "intro":"Grupper had a breakout season on the World Cup circuit, nearly taking the overall lead title; but he’s still unsure about how his climbing helps humanity.",
+        "pages": "/Jesse-Grupper-on-Winning-Golds"
+    },
+    
+    {
+        "pic":"./News/4.jpg",
+        "title":"Kai Lightner Just Did His Hardest Route in Eight Years",
+        "intro":"“If little me could see me now and look at the body, he would probably be like, ‘There's no way he’s climbing that hard.’”",
+        "pages": "/Kai-Lightner-Just-Did-His-Hardest-Route-in-Eight-Years"
+    },
+
+    {
+        "pic":"./News/5.jpg",
+        "title":"Sling Jams Micro Traxion, Sending Climber into 30-foot Groundfall",
+        "intro":"After her fall, Whitney Clark crawled for 2.5 hours down talus and scree to reach a rescue helicopter, but ultimately suffered only minor injuries.",
+        "pages": "/Sling-Jams-Micro-Traxion"
+    },
+
+    {
+        "pic":"./News/6.jpg",
+        "title":"Experienced Guide Dies on Cerro Marmolejo, Leaving Behind a Final Goodbye to His Wife and Son",
+        "intro":"Ignacio Lucero’s final message, sent on the day he passed, was I'm on my way. It was his goodbye, says his wife to Climbing.",
+        "pages": "/Experienced-Guide-Dies-on-Cerro-Marmolejo"
+    },
+
+    {
+        "pic":"./News/7.jpg",
+        "title":"American Trio Blazes Spectacular New Route up 9000-foot North Face of Jannu",
+        "intro":"With 'Round Trip Ticket' (M7 AI5+ A0), Alan Rousseau, Jackson Marvell, and Matt Cornell have established one of the most impressive Himalayan routes in recent memory.",
+        "pages": "/American-Trio-Blazes"
+    }
+
+]
