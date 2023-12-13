@@ -17,22 +17,6 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='Nav_footer'>
-                    <ul style={{listStyleType:'none'}}>
-                        <li>
-                            Knowledge
-                            <ul style={{listStyleType:'none'}}>
-                                <li>overview</li>
-                                <li>Techniques</li>
-                                <li>Training</li>
-                                <li>Nutrition</li>
-                            </ul>
-                        </li>
-                            <li>Location</li>
-                            <li>Gear</li>
-                            <li>News</li>
-                            <li>Clubs</li>
-                            <li>Media</li>
-                    </ul>
                 </div>
                 <div className='contact'>
                     <img className='logo_footer' src={logo}></img>

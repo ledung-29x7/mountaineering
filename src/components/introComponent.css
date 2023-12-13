@@ -5,9 +5,17 @@
     margin-top: 10px;
     margin-right: 10px;
 }
+.location_detail:hover{
+    opacity: 0.8;
+}
 
 .title_intro{
     background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+
 }
 .pic{
     width: 300px;

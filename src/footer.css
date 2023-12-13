@@ -24,7 +24,7 @@ footer{
 }
 
 .About{
-    width: 33.33333%;
+    width: 50%;
     text-align: center;
 }
 .about_laybel{
@@ -43,13 +43,10 @@ footer{
 }
 
 .contact{
-    width: 33.33333%;
+    width: 50%;
     text-align: center;
 }
-.Nav_footer{
-    width: 33.33333%;
-    text-align: center;
-}
+
 .logo_footer{
     width: 10em;
 }
