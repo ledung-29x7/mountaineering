@@ -1,5 +1,6 @@
 import React from "react";
 import '../../../css/dt.css';
+import Related_articles from "../../../../components/Related_articles";
 import img1 from '../../../../img/photos/sondoong/1.jpeg';
 import img2 from '../../../../img/photos/sondoong/2.jpeg';
 import img3 from '../../../../img/photos/sondoong/3.jpeg';
@@ -13,6 +14,26 @@ import img9 from '../../../../img/photos/sondoong/9.jpeg';
 
 
 const hhen =()=>{
+    const posts =[
+        {
+            pic:"./photos/1.jpeg",
+            title:"Miss H'Hen Nie and her journey to explore Son Doong cave",
+            intro:"H'Hen Niê's expedition covered a distance of more than 20km and lasted for 4 days with the presence of Howard Limbert - Head......",
+            pages:"/Miss-HHen-Nie-and-her-journey-to-explore-Son-Doong-cave"
+        },
+        {
+            pic:"./photos/2.webp",
+            title:"How the Affinity Ice Climbing Clinic is Welcoming BIPOC Ice Climbers",
+            intro:"Driving for hours through a winding canyon, we crested the ridge and then rose above the clouds....",
+            pages:"/How-the-Affinity-Ice-Climbing-Clinic-is-Welcoming-BIPO-Ice-Climbers"
+        },
+        {
+            pic:"./photos/3.webp",
+            title:"How Climbing Holds are Made",
+            intro:"Stone Age, the hold supplier for Touchstone climbing gyms, gives us a behind-the-curtain look at how holds are made.",
+            pages:"/How-Climbing-Holds-are-Made"
+        },
+    ]
     return(
         <div className="test">
         <h1>Miss H'Hen Nie and her journey to explore Son Doong cave</h1>
@@ -34,6 +55,8 @@ const hhen =()=>{
         <p>When arriving at the "Garden of Eden" in the second Sink Hole - one of the extremely beautiful spots of Son Doong cave, Miss H'Hen Niê said she "felt satisfied and all the recent difficulties had disappeared." ”.</p>
         <img className="img_bv" src={img9}/>
         <p>H'Hen Niê confided: "This is truly a trip that makes Hen happy when she gets to touch the largest cave in the world. Through this trip, Hen has had very special experiences for herself and at the same time, Hen also wants to send a message to everyone: If you love nature and exploration, try setting foot once in Son Cave. Doong to feel the majesty that the Creator has bestowed on our country."</p>
+          {/* related articles */}
+          <Related_articles posts={posts}></Related_articles>
         </div>
     )
 }
