@@ -74,6 +74,11 @@ import Carabiners from './page/gear/detail/carabiners';
 
   //photos
   import Hhen from './page/media/photos/detail/hhen';
+  import AffinityIceClimbingClinic from './page/media/photos/detail/AffinityIceClimbingClinic';
+  import ClimbingHolds from './page/media/photos/detail/ClimbingHolds';
+  import France from './page/media/photos/detail/France';
+  import GreatestClimbing from './page/media/photos/detail/GreatestClimbing';
+  import StoneNudes from './page/media/photos/detail/StoneNudes';
 
 
   //location
@@ -175,6 +180,13 @@ function App() {
 
         {/* photos */}
         <Route path='/Miss-HHen-Nie-and-her-journey-to-explore-Son-Doong-cave' element={<Hhen/>}></Route>
+        <Route path='/How-the-Affinity-Ice-Climbing-Clinic-is-Welcoming-BIPO-Ice-Climbers' element={<AffinityIceClimbingClinic/>}></Route>
+        <Route path='/How-Climbing-Holds-are-Made' element={<ClimbingHolds/>}></Route>
+        <Route path='/France-Land-of-Wine-Cheese-and-Beautiful-Rarely-Visited-Crags' element={<France/>}></Route>
+        <Route path='/Greatest-Climbing-Photos-of-2021' element={<GreatestClimbing/>}></Route>
+        <Route path='/Stone-Nudes-Are-Coming-Back-Dean-Fidelman-Reveals-All' element={<StoneNudes/>}></Route>
+
+
 
         {/* location */}
         <Route path='/SonDoongCave' element={<SonDoongCave/>}></Route>
