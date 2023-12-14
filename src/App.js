@@ -71,9 +71,18 @@ import Carabiners from './page/gear/detail/carabiners';
   //videos
   import Chris_Sharmas from './page/media/videos/detail/Chris_Sharmas_Sleeping_Lion_Project';
   import Mallorca from './page/media/videos/detail/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca';
+  import Weekend_Whipper_01 from './page/media/videos/detail/Weekend_Whipper_01';
+  import Weekend_Whipper_02 from './page/media/videos/detail/Weekend_Whipper_02';
+  import Weekend_Whipper_03 from './page/media/videos/detail/Weekend_Whipper_03';
+  import Weekend_Whipper_04 from './page/media/videos/detail/Weekend_Whipper_04';
+  import Weekend_Whipper_05 from './page/media/videos/detail/Weekend_Whipper_05';
+  import Weekend_Whipper_06 from './page/media/videos/detail/Weekend_Whipper_06';
+  import Weekend_Whipper_07 from './page/media/videos/detail/Weekend_Whipper_07';
+  import Weekend_Whipper_08 from './page/media/videos/detail/Weekend_Whipper_08';
 
   //photos
   import Hhen from './page/media/photos/detail/hhen';
+  import Movies from './page/media/photos/detail/movies';
 
 
   //location
@@ -172,9 +181,18 @@ function App() {
         {/* videos */}
         <Route path='/Chris-Sharmas-Sleeping-Lion-Project' element={<Chris_Sharmas/>}></Route>
         <Route path='/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca' element={<Mallorca/>}></Route>
+        <Route path='/Too-Pumped-to-Clip!' element={<Weekend_Whipper_01/>}></Route>
+        <Route path='/Hang-Reminder' element={<Weekend_Whipper_02/>}></Route>
+        <Route path='/Rope-Behind-Leg' element={<Weekend_Whipper_03/>}></Route>
+        <Route path='/Stacking-On-World-Most-Famous-Boulder' element={<Weekend_Whipper_04/>}></Route>
+        <Route path='/Ice-Fall-With-Rope' element={<Weekend_Whipper_05/>}></Route>
+        <Route path='/Forgotten-Lead' element={<Weekend_Whipper_06/>}></Route>
+        <Route path='/Should-Wear-Helmet' element={<Weekend_Whipper_07/>}></Route>
+        <Route path='/Air-Time-In-Mexico' element={<Weekend_Whipper_08/>}></Route>
 
         {/* photos */}
         <Route path='/Miss-HHen-Nie-and-her-journey-to-explore-Son-Doong-cave' element={<Hhen/>}></Route>
+        <Route path='/Mountaineering-Movies' element={<Movies/>}></Route>
 
         {/* location */}
         <Route path='/SonDoongCave' element={<SonDoongCave/>}></Route>
