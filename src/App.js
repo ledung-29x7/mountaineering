@@ -22,6 +22,7 @@ import Communication from './page/knowledge/overview/detail/communication'
 import Terrain from './page/knowledge/overview/detail/terrain'
 import Rating from './page/knowledge/overview/detail/rating'
 import Mountaineering from './page/knowledge/overview/detail/mountaineering';
+import Types_Of_Shelters from './page/knowledge/overview/detail/Types_Of_Shelters';
 
 // techniques
 import Finger_crack from './page/knowledge/techniques/detail/finger_cracks';
@@ -37,6 +38,7 @@ import CrackClimbing from './page/knowledge/techniques/detail/Crack_Climbing';
 import BuildAnchors from './page/knowledge/techniques/detail/Build_Anchors';
 import Avalanche from './page/knowledge/techniques/detail/Avalanche';
 import Belay from './page/knowledge/techniques/detail/Belay';
+import Shelter_For_The_Storm from './page/knowledge/techniques/detail/Shelter_For_The_Storm';
 
 // training
 import Train_for_Rock from './page/knowledge/training/detail/Train_for_Rock';
@@ -66,6 +68,7 @@ import Stakes from './page/gear/detail/stakes';
 import Outdoorshoes from './page/gear/detail/outdoorshoes';
 import Backpack from './page/gear/detail/climbing_backpack';
 import Carabiners from './page/gear/detail/carabiners';
+import Inflatable_Pod_sleeping from './page/gear/detail/Inflatable_Pod_sleeping';
 
 // media
   //videos
@@ -128,6 +131,8 @@ function App() {
         <Route path='/terrain' element={<Terrain/>}></Route>
         <Route path='/rating' element={<Rating/>}></Route>
         <Route path='/mountaineering' element={<Mountaineering/>}></Route>
+        <Route path='/Types-Of-Shelters' element={<Types_Of_Shelters/>}></Route>
+
         {/* techniques */}
         <Route path='/finger-cracks' element={<Finger_crack/>}></Route>
         <Route path='/Snow-Anchors-for-Mountaineering' element={<Snow_Anchors/>}></Route>
@@ -142,6 +147,7 @@ function App() {
         <Route path='/How-to-Build-Anchors-for-Climbing' element={<BuildAnchors/>}></Route>
         <Route path='/How-to-Belay' element={<Belay/>}></Route>
         <Route path='/Avalanche-Rescue-Overview' element={<Avalanche/>}></Route>
+        <Route path='/Shelter_For_The_Storm' element={<Shelter_For_The_Storm/>}></Route>
 
         {/* training */}
         <Route path='/Train-for-Rock-Climbing' element={<Train_for_Rock/>}></Route>
@@ -172,6 +178,7 @@ function App() {
         <Route path='/backpack' element={<Backpack/>}></Route>
         <Route path='/carabiners' element={<Carabiners/>}></Route>
         <Route path='/outdoorshoes' element={<Outdoorshoes/>}></Route>
+        <Route path='/Inflatable_Pod_sleeping' element={<Inflatable_Pod_sleeping/>}></Route>
 
 
         {/* videos */}

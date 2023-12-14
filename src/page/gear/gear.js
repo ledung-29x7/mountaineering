@@ -41,7 +41,14 @@ const gear =()=>{
             title:"What are outdoor shoes?" ,
             intro:"What are outdoor shoes ? There are many types of outdoor shoes.....",
             pages:"/outdoorshoes"
-        }
+        },
+        {
+            pic:"https://d1nymbkeomeoqg.cloudfront.net/photos/26/6/382128_20894_XL.jpg" ,
+            title:"Inflatable_Pod_sleeping" ,
+            intro:"Mountaineers setting out on multi-day expeditions need somewhere to rest their heads at night.....",
+            pages:"/Inflatable_Pod_sleeping"
+        },
+
 
     ]
     return(
