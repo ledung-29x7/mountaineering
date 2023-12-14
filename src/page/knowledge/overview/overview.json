@@ -1,0 +1,59 @@
+[
+    {
+        "pic" : "/overview/intro/1.webp",
+        "title" : "History techniques",
+        "intro" : "One of today’s predominant forms of mountaineering. The defining feature for classification in thi.......",
+        "pages": "/types"
+    },
+    {
+        "pic" : "/overview/intro/2.jpeg",
+        "title" : "History techniques",
+        "intro" : "The history of various climbing and mountaineering techniques stretches as ......",
+        "pages": "/history"
+    },
+    {
+        "pic":"/overview/intro/3.webp",
+        "title":"Communication when climbing",
+        "intro":"The most common form of communication during mountaineering is simply calling with the voice....",
+        "pages": "/communication"
+    },
+    {
+        "pic" : "/overview/intro/4.jpeg" ,
+        "title" : "Mountaineering terrain" ,
+        "intro" : "We can divide mountaineering terrain into various types according to several criteria.......",
+        "pages": "/terrain"
+    },
+    {
+        "pic" : "/overview/intro/5.png",
+        "title" : "Risk rating system",
+        "intro" : "Cliffs and rocks which have ceased to be mere training locations and.......",
+        "pages": "/rating"
+    },
+    {
+        "pic":"/overview/intro/6.webp",
+        "title":"Mountaineering",
+        "intro":"In its original meaning the term “mountaineering” describes an activity leading ........",
+        "pages" : "/mountaineering"
+    },
+    {
+        "pic":"https://i.pinimg.com/564x/fe/1a/85/fe1a853917af43f54f8d2a1630796733.jpg",
+        "title":"Climbing Is F’in Dangerous. Here’s How to Stay Safe In the Red Zone.",
+        "intro":"Understand danger to stay out of out of harm’s way",
+        "pages" : "/Climbing-Is-F’in-Dangerous"
+    },
+    {
+        "pic":"https://i.pinimg.com/564x/5e/ff/38/5eff38db5475c9830337cc50f246720d.jpg",
+        "title":"The World’s Most Dangerous Lead",
+        "intro":"Some climbs, we get up out of sheer stubbornness—or stupidity.",
+        "pages" : "/The-World’s-Most-Dangerous-Lead"
+    },
+    {
+        "pic":"https://i.pinimg.com/564x/cc/52/af/cc52af7e107c341542311e91e0c283b2.jpg",
+        "title":"The Most Dangerous Thing About Bouldering (Isn’t What You Think)",
+        "intro":"An experience on the purple boulder problem at the gym altered the author's life course in an unexpected way.",
+        "pages" : "/The-Most-Dangerous-Thing"
+    }
+
+
+
+]
