@@ -19,6 +19,9 @@ import Communication from './page/knowledge/overview/detail/communication'
 import Terrain from './page/knowledge/overview/detail/terrain'
 import Rating from './page/knowledge/overview/detail/rating'
 import Mountaineering from './page/knowledge/overview/detail/mountaineering';
+import Dangerous_Lead from './page/knowledge/overview/detail/Dangerous_Lead';
+import Dangerous_Thing from './page/knowledge/overview/detail/Dangerous_Thing';
+import Climbing_Is_Fin_Dangerous from './page/knowledge/overview/detail/Climbing_Is_Fin_Dangerous';
 
 // techniques
 import Finger_crack from './page/knowledge/techniques/detail/finger_cracks';
@@ -88,6 +91,9 @@ function App() {
         <Route path='/terrain' element={<Terrain/>}></Route>
         <Route path='/rating' element={<Rating/>}></Route>
         <Route path='/mountaineering' element={<Mountaineering/>}></Route>
+        <Route path='/The-World’s-Most-Dangerous-Lead' element={<Dangerous_Lead/>}></Route>
+        <Route path='/The-Most-Dangerous-Thing' element={<Dangerous_Thing/>}></Route>
+        <Route path='/Climbing-Is-F’in-Dangerous' element={<Climbing_Is_Fin_Dangerous/>}></Route>
         {/* techniques */}
         <Route path='/finger-cracks' element={<Finger_crack/>}></Route>
         <Route path='/Snow-Anchors-for-Mountaineering' element={<Snow_Anchors/>}></Route>
