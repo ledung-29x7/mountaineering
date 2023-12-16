@@ -1,7 +1,7 @@
 [
     {
         "pic" : "/overview/intro/1.webp",
-        "title" : "History techniques",
+        "title" : "Type of mountaineering",
         "intro" : "One of today’s predominant forms of mountaineering. The defining feature for classification in thi.......",
         "pages": "/types"
     },
@@ -40,6 +40,24 @@
         "title":"Mountaineering",
         "intro":"In its original meaning the term “mountaineering” describes an activity leading ........",
         "pages" : "/mountaineering"
+    },
+    {
+        "pic":"https://i.pinimg.com/564x/fe/1a/85/fe1a853917af43f54f8d2a1630796733.jpg",
+        "title":"Climbing Is F’in Dangerous. Here’s How to Stay Safe In the Red Zone.",
+        "intro":"Understand danger to stay out of out of harm’s way",
+        "pages" : "/Climbing-Is-F’in-Dangerous"
+    },
+    {
+        "pic":"https://i.pinimg.com/564x/5e/ff/38/5eff38db5475c9830337cc50f246720d.jpg",
+        "title":"The World’s Most Dangerous Lead",
+        "intro":"Some climbs, we get up out of sheer stubbornness—or stupidity.",
+        "pages" : "/The-World’s-Most-Dangerous-Lead"
+    },
+    {
+        "pic":"https://i.pinimg.com/564x/cc/52/af/cc52af7e107c341542311e91e0c283b2.jpg",
+        "title":"The Most Dangerous Thing About Bouldering (Isn’t What You Think)",
+        "intro":"An experience on the purple boulder problem at the gym altered the author's life course in an unexpected way.",
+        "pages" : "/The-Most-Dangerous-Thing"
     }
 
 
