@@ -1,0 +1,20 @@
+
+.intro{
+    width: 300px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    /* background-color: rgba(0, 0,0,0.5); */
+    
+}
+.locations,
+.knowledges,
+.gears{
+    width: 1200px;
+    min-height: 1000px;
+    display: grid;
+    grid: 300px / auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 0px auto;
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "pic" : "/clubs/intro/aac.jpeg",
+        "title" : "American Alpine Club",
+        "intro" : "The American Alpine Club (AAC) is a non-profit member organization with more than 24,000 members....",
+        "pages": "/American-Alpine-Club"
+    },
+    {
+        "pic" : "/clubs/intro/jp.jpeg",
+        "title" : "The Japan Mountaineering Association",
+        "intro" : "The Japan Mountaineering Association is a mountaineering organization in Japan.",
+        "pages": "/The-Japan-Mountaineering-Association"
+    },
+    {
+        "pic":"/clubs/intro/hymalayanclub.jpeg",
+        "title":"The Himalayan Club",
+        "intro":"The Himalayan Club is an organization founded in India in 1928 along the lines of the Alpine Club...",
+        "pages": "/The-Himalayan-Club"
+    },
+    {
+        "pic" : "/clubs/intro/nzac.jpeg" ,
+        "title" : "The New Zealand Alpine Club" ,
+        "intro" : "The New Zealand Alpine Club (NZAC) was founded in 1891 and is one of the oldest alpine clubs in the world....",
+        "pages": "/The-New-Zealand-Alpine-Club"
+    }
+
+
+]

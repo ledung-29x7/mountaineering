@@ -1,0 +1,28 @@
+[
+    {
+        "pic" : "/location/intro/1.jpeg",
+        "title" : "The largest cave in the world",
+        "intro" : "A little-known fact is that Vietnam is currently the country that owns the largest cave in the world - Son Doong Cave....",
+        "pages": "/SonDoongCave"
+    },
+    {
+        "pic" : "/location/intro/2.jpeg",
+        "title" : "Complete Guide to Mount Everest",
+        "intro" : "Mount Everest is located between the border between Nepal and Tibet on the roof of the world in the Himalayas....",
+        "pages": "/Complete-Guide-to-Mount-Everest"
+    },
+    {
+        "pic":"/location/intro/3.jpeg",
+        "title":"Mont Blanc is the highest peak in the Western Alps",
+        "intro":"Find out all about mountaineering and climbing to the Mont Blanc summit — about the routes, huts, and the how to prepare for this once-in-a-lifetime experience.",
+        "pages": "/Mont-Blanc-is-the-highest-peak-in-the-Western-Alps"
+    },
+    {
+        "pic" : "/location/intro/4.jpeg" ,
+        "title" : "9 Himalayan peaks that are perfect for beginners to mountaineering" ,
+        "intro" : "list some Himalayan peaks that mountaineering beginners can put on top of their to-do list.",
+        "pages": "/9-Himalayan-peaks-that-are-perfect-for-beginners-to-mountaineering"
+    }
+
+
+]

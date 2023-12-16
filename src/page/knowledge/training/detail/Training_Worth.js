@@ -1,0 +1,44 @@
+import React from "react";
+import '../../../css/dt.css';
+
+import img1 from '../../../../img/knowledge/trainning/Training_Worth/1.webp';
+import img2 from '../../../../img/knowledge/trainning/Training_Worth/2.webp';
+import img3 from '../../../../img/knowledge/trainning/Training_Worth/3.jpg';
+import img4 from '../../../../img/knowledge/trainning/Training_Worth/4.jpg';
+
+const Training_Worth =()=>{
+    return(
+        <div className="test">
+            <h1>Is Training Worth Your Time?</h1>
+            <p style={{fontStyle:'italic', textAlign:'center'}}>Not many will argue that hitting the fingerboard will improve your climbing grade, but if simply going climbing is just as effective...</p>
+            <img className="img_bv" src={img1}></img>
+            <p>For decades, climbers have debated how much they should train and even, fundamentally, whether to train at all. When I started climbing, back in the 1980s, training remained in the closet: a guilty secret, as if you were cheating. Climbers even held a romantic notion that perhaps our unique and variously demanding activity couldn’t be “trained” for. Indeed, Ron Fawcett, Britain’s top climber and a world leader in the late 1970s, famously said, “The best training for climbing is climbing.”</p>
+            <p>The big question is whether or not the picture has changed.</p>
+            <img className="img_bv" src={img2}></img>
+            <p>Today, we see a generation of training-obsessed climbers. One flick through Instagram might lead us to believe that unless we perform regular benchmark tests—one-armed front levers or pull-ups on 6-millimeter crimps, anyone?—and plan out our training on spreadsheets, we are behind. Coaches debate endlessly about hangboard protocols, how to target different energy systems, and the ratios of a wide range of performance variables in a periodized program. Yet when you go to the crag, you see a lot of good climbers (including really good ones) who don’t do many of these things. They’re too busy out at the rock, trying hard routes!</p>
+            <p>We could, of course, debate the precise definition of “training.” You could argue on one hand that nobody really “trains,” and on the other that everyone does. As a coach for nearly three decades, I find the word “training” to reflect an attitude, rather than a specific practice. It’s the process of analyzing your climbing performance and committing to exercises or drills because you hope they’ll make you climb harder (I’m pretty sure most people do this at some point).</p>
+            <p>So, if we accept that you train, at least to some degree, the next question is How much do you train?</p>
+            <p>Most things in life work best in moderation, and this is never truer than in training. Training gives, but it also takes away. I could list endless advantages of training (since I’m a coach, you’d hope so!). First, through training, we can diagnose and address weaknesses. One example might be a climber who always uses an open grip because she can’t grip holds in the half-crimped position. If she trains the half crimp on a hangboard consistently for several months, she’ll begin to use it more when climbing, and may feel much more confident and versatile overall. Another example might be a climber who struggles with endurance but only has access to a bouldering wall. If he performs regular endurance-based bouldering drills (lapping easy and mid-grade problems in blocks), then he can, in fact, build endurance on a medium that is generally more about strength. We can stretch to promote flexibility; we can perform supportive strength-conditioning exercises to reduce the risk of injury. A well-structured plan may also help prevent burnout by cycling the workload.</p>
+            <ul className="ul-li">
+                <li><h4>Above all, we need to love rather than fear the pressure. The point isn’t to train to make your project feel easy—to overpower it; it’s to thrive when it feels hard!</h4></li>
+            </ul>
+            <p>I could go on, but you get the picture—training helps a great many climbers to perform well. I put any or all my climbing successes down to hard and strategic training, because the physical aspects of climbing do not come naturally to me, whereas the technical, tactical, and psychological aspects do. And so we enter the crux of the debate: understanding a tipping point at which training stops working as medicine and may become poison.</p>
+            <p>Some climbers love to train—so much so that they actually forget to go climbing. They love training because they’re good at it, and may not actually love climbing because they struggle on rock. Indoors, and especially on the campus board, they are roundly praised: “You’re so strong and would definitely climb ____ when you go outside.”</p>
+            <p>Then, lo and behold, it doesn’t happen. After a beatdown, these climbers return, scratching their heads, to their spreadsheets and periodized plans to see where they went wrong.</p>
+            <p>The biggest training trap of all is that, if we take it too far, we lose the skills and raw instincts upon which good climbing performances are forged. To climb well, we need to be creative and adaptable. Watch footage of Adam Ondra redlining on a 9a onsight, lashing out for microscopic holds as if guided by radar. Or Ashima Shiraishi, flying into a full-splits stem on a powerful boulder at a competition. We also need to have a head for running out the rope or pushing high above the pads. When Alex Honnold and Tommy Caldwell are way above their gear on some blank granite face, their minds—not arms—are driving them onward. We also need an eye for reading complex sequences. We need to be able to change a game plan quickly.</p>
+            <p>Above all, we need to love rather than fear the pressure. The point isn’t to train to make your project feel easy—to overpower it; it’s to thrive when it feels hard! To get the job done, we need to hone a killer instinct and the ability to snatch a result when the odds are against us. Training won’t teach us any of this. In fact, it may have the opposite effect.</p>
+            <p>Last year, I attended two team meets in Europe with some of the world’s best climbers. I found that many had minimal appetites for complex, science-based training. Some of the 9a+/b climbers I spoke to weren’t familiar with much of the latest scientific theory, and many believed it was possible to take things too far. Sure, you could argue that some of these girls and guys have superior genetics, but those alone aren’t enough to reach the pinnacle in climbing. The sentiment among this crew was that training was only half the battle, and you’ll always need to put the time in on the crags to fulfill your potential. You can overanalyze something to the point where you go off on a tangent and lose sight of your priorities or central goal—or the joy of climbing.</p>
+            <img className="img_bv" src={img3}></img>
+            <p>It’s all about balance. I’ve come across a great number of climbers who are lost without a training plan. If you’re one, I suggest that this is an iffy headspace as far as your climbing is concerned. As a coach, I have a policy of refusing to issue a repeat training plan to a climber immediately after the person has completed the first one (even though many clients have begged!). Training periods should always be followed by performance periods—or if that latter term adds pressure, periods when you just climb for the pure sake of it. Moreover, if you only train and train and train, you run a real risk of performance decline and injury due to overtraining (see Master Class, No. 381).</p>
+            <p>In short, to be a really good climber (and, I dare say, also to enjoy climbing fully), switch off your training brain periodically and just go.</p>
+            <h2>Takeaways</h2>
+            <img className="img_bv" src={img4}></img>
+            <ol className="ul-li">
+                <li>When planning your year, consciously allocate periods during which you won’t be following a structured training program, and just climb at whim.</li>
+                <li>If you struggle more with technique or your head game, spend more time working on those aspects of performance than training. If necessary, work specific technique drills, and take practice falls. Maximize your time on rock.</li>
+                <li>Don’t sweat minor losses or gains in physical performance. Benchmarking scores on a hangboard is useful for reference, but often has little significance at the crag. If your scores go down, you may end up climbing better, relying more on technique.</li>
+            </ol>
+        </div>
+    )
+}
+export default Training_Worth;
