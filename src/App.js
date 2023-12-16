@@ -23,6 +23,9 @@ import Terrain from './page/knowledge/overview/detail/terrain'
 import Rating from './page/knowledge/overview/detail/rating'
 import Mountaineering from './page/knowledge/overview/detail/mountaineering';
 import Types_Of_Shelters from './page/knowledge/overview/detail/Types_Of_Shelters';
+import Dangerous_Lead from './page/knowledge/overview/detail/Dangerous_Lead';
+import Dangerous_Thing from './page/knowledge/overview/detail/Dangerous_Thing';
+import Climbing_Is_Fin_Dangerous from './page/knowledge/overview/detail/Climbing_Is_Fin_Dangerous';
 
 // techniques
 import Finger_crack from './page/knowledge/techniques/detail/finger_cracks';
@@ -74,6 +77,14 @@ import Inflatable_Pod_sleeping from './page/gear/detail/Inflatable_Pod_sleeping'
   //videos
   import Chris_Sharmas from './page/media/videos/detail/Chris_Sharmas_Sleeping_Lion_Project';
   import Mallorca from './page/media/videos/detail/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca';
+  import Weekend_Whipper_01 from './page/media/videos/detail/Weekend_Whipper_01';
+  import Weekend_Whipper_02 from './page/media/videos/detail/Weekend_Whipper_02';
+  import Weekend_Whipper_03 from './page/media/videos/detail/Weekend_Whipper_03';
+  import Weekend_Whipper_04 from './page/media/videos/detail/Weekend_Whipper_04';
+  import Weekend_Whipper_05 from './page/media/videos/detail/Weekend_Whipper_05';
+  import Weekend_Whipper_06 from './page/media/videos/detail/Weekend_Whipper_06';
+  import Weekend_Whipper_07 from './page/media/videos/detail/Weekend_Whipper_07';
+  import Weekend_Whipper_08 from './page/media/videos/detail/Weekend_Whipper_08';
 
   //photos
   import Hhen from './page/media/photos/detail/hhen';
@@ -132,6 +143,10 @@ function App() {
         <Route path='/rating' element={<Rating/>}></Route>
         <Route path='/mountaineering' element={<Mountaineering/>}></Route>
         <Route path='/Types-Of-Shelters' element={<Types_Of_Shelters/>}></Route>
+        <Route path='/The-World’s-Most-Dangerous-Lead' element={<Dangerous_Lead/>}></Route>
+        <Route path='/The-Most-Dangerous-Thing' element={<Dangerous_Thing/>}></Route>
+        <Route path='/Climbing-Is-F’in-Dangerous' element={<Climbing_Is_Fin_Dangerous/>}></Route>
+        
 
         {/* techniques */}
         <Route path='/finger-cracks' element={<Finger_crack/>}></Route>
@@ -184,6 +199,15 @@ function App() {
         {/* videos */}
         <Route path='/Chris-Sharmas-Sleeping-Lion-Project' element={<Chris_Sharmas/>}></Route>
         <Route path='/Chris-Sharmas-First-Ascent-of-Es-Pontas-Mallorca' element={<Mallorca/>}></Route>
+        <Route path='/Weekend-Whipper-Too-Pumped-to-Clip' element={<Weekend_Whipper_01/>}></Route>
+        <Route path='/Weekend-Whipper-A-Reminder-to-Make-Your-Friends-Hang-Draws' element={<Weekend_Whipper_02/>}></Route>
+        <Route path='/Weekend-Whipper-A-Reminder-to-Not-Let-the-Rope-Get-Behind-Your-Leg' element={<Weekend_Whipper_03/>}></Route>
+        <Route path='/Weekend-Whipper-Stacking-It-On-the-Worlds-Most-Famous-Boulder' element={<Weekend_Whipper_04/>}></Route>
+        <Route path='/Weekend-Whipper-Ice-Climber-Falls-With-Rope-Between-Legs—Mid-Figure-Four' element={<Weekend_Whipper_05/>}></Route>
+        <Route path='/Weekend-Whipper-Have-You-Ever-Forgotten-You-Were-on-Lead' element={<Weekend_Whipper_06/>}></Route>
+        <Route path='/Weekend-Whipper-Why-Belayers-Should-Always-Wear-a-Helmet' element={<Weekend_Whipper_07/>}></Route>
+        <Route path='/Weekend-Whipper-Huge-Air-Time-in-El-Salto-Mexico' element={<Weekend_Whipper_08/>}></Route>
+
 
         {/* photos */}
         <Route path='/Miss-HHen-Nie-and-her-journey-to-explore-Son-Doong-cave' element={<Hhen/>}></Route>
