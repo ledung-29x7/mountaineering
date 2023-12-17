@@ -1,0 +1,25 @@
+.test{
+    box-sizing: border-box;
+    width: 780px;
+    margin: 0 auto;
+}
+.logoACC{
+    margin-left: 300px;
+}
+.float{
+    float: right;
+    width: 280px;
+    text-align: center;
+}
+.block{
+    text-align: center;
+}
+.block>img{
+    width: 780px;
+}
+.test>img{
+    width: 780px;
+}
+.test>span{
+    margin-left: 280px;
+}
