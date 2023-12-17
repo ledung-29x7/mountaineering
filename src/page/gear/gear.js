@@ -48,11 +48,16 @@ const gear =()=>{
             intro:"Mountaineers setting out on multi-day expeditions need somewhere to rest their heads at night.....",
             pages:"/Inflatable_Pod_sleeping"
         },
-
-
     ]
+    const scrooltotop =()=>{
+        return(
+        window.scrollTo({
+            top: 0,
+            behavior: `smooth`
+          })
+          )}
     return(
-        <div className='knowledges'>
+        <div onClick={scrooltotop} className='knowledges'>
             {posts.map((post)=>(
                 <Link className='intro' to={post.pages}>
                     <IntroComponent pic={post.pic} title={post.title} intro={post.intro} ></IntroComponent>
