@@ -1,3 +1,4 @@
+import Maps from '../../../components/maps';
 import img1 from '../../../img/location/Fuji Mount/1.jpg';
 import img2 from '../../../img/location/Fuji Mount/2.jpg';
 import img3 from '../../../img/location/Fuji Mount/3.jpg';
@@ -30,6 +31,7 @@ function Fujimount(){
             <img src={img4}></img>
             <span>Unspoken Dangers of Climbing Mt.Fuji</span>
             <p>The mountain's serene beauty often masks the inherent dangers that have led to tragic incidents over the years. These stories serve as stark reminders of the respect and preparation that Mount Fuji demands from every climber. They are wake-up calls from the mountain itself, urging us to tread carefully, prepare thoroughly, and respect the unpredictable nature of this towering peak. As we delve into these incidents, let's keep in mind that every step taken on Mount Fuji should be one of caution and reverence.</p>
+            <Maps name="Fuji mount" ggmap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13015.197565360517!2d138.71706367125262!3d35.36062456307616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019629a42fdc899%3A0xa6a1fcc916f3a4df!2zUGjDuiBTxKk!5e0!3m2!1svi!2s!4v1702833674349!5m2!1svi!2s"></Maps>
         </body>
     );
 }

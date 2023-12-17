@@ -4,6 +4,7 @@ import img3 from "../../../img/location/Phanxipan/3.jpg";
 import img4 from "../../../img/location/Phanxipan/2.webp";
 import img5 from "../../../img/location/Phanxipan/4.jpg";
 import img6 from "../../../img/location/Phanxipan/5.jpg";
+import Maps from "../../../components/maps";
 function Phanxipan(){
     return(
         <div>
@@ -37,6 +38,7 @@ function Phanxipan(){
         <p>When it comes to permission, before the ascent I’d read all sorts of stories about independent climbers not being allowed on the mountain, being turned back or even fined by national park authorities. In reality, however, we didn’t encounter any authorities on the climb, no tickets or permission papers were asked for, and none of the official guides we passed and spoke with mentioned anything at all about it. No doubt, one of the reasons the authorities and tourist agencies in Sapa say it’s not possible to climb Fansipan independently is because, if such a climber were to have an accident, it would not only be a personal tragedy, it would give the mountain and the national park bad press and a bad name. This seems reasonable to me. However, part of discouraging independent climbers is also likely to do with money. A guided climb can cost upwards of $100. And yet, we met a number of guides and their groups who didn’t appear to have safety in mind: they were climbing with flip-flops or, in some cases, with plastic bags over their shoes so as not to get them wet or dirty, thus increasing the chances of a nasty slip or fall because of the lack of traction. Unless things have changed by the time you read this, it certainly is possible to climb Fansipan independently, without a guide and without needing to get permission. However, if you do climb independently, have some respect for the mountain and for the independent climbers who will follow in your footsteps: don’t be reckless; climb responsibly and safely. If your negligence leads to an accident on the mountain, you give other independent climbers a bad name, and the authorities the perfect excuse to ban independent climbers in the future.</p>
         <img src={img6}></img>
         <span>On our climb, we weren’t asked for tickets or any kind of permission to scale the mountain independently</span>
+        <Maps name="Fanxipan" ggmap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14765.322473440898!2d103.76470026501774!3d22.303332624948265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36cd448786c84543%3A0x98e9595d4892bc5a!2sPhan%20Xi%20P%C4%83ng!5e0!3m2!1svi!2s!4v1702833429409!5m2!1svi!2s"></Maps>
         </div>
     );
 }

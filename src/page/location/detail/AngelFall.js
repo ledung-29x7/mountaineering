@@ -1,3 +1,4 @@
+import Maps from '../../../components/maps';
 import img1 from '../../../img/location/Angel Fall/1.jpg';
 import img2 from '../../../img/location/Angel Fall/2.jpg';
 function AngelFall(){
@@ -13,6 +14,7 @@ function AngelFall(){
             <p>The aim of this classic expedition to Venezuela is to climb the tabletop mountain (tepui) of Auyán-tepui and to abseil down the world’s highest waterfall, Angel Falls.</p>
             <p>To get to the summit you and the team will first undertake a trek through the Canaima National Park, along the route which was charted in 1937 when American aviator and adventurer Jimmie Angel was forced to descend through the jungle on foot to reach civilisation after he crash-landed on the summit.</p>
             <img src={img2}></img>
+            <Maps name="Angel Fall" ggmap="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.093684444919!2d-62.53671196120631!3d5.968913548503975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dc6be717030a879%3A0x73210e8bf60fdfe7!2zVGjDoWMgbsaw4bubYyDDgW5nZWw!5e0!3m2!1svi!2s!4v1702833799493!5m2!1svi!2s"></Maps>
         </body>
     );
 }
