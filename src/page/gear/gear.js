@@ -43,8 +43,8 @@ const gear =()=>{
             pages:"/outdoorshoes"
         },
         {
-            pic:"https://d1nymbkeomeoqg.cloudfront.net/photos/26/6/382128_20894_XL.jpg" ,
-            title:"Inflatable_Pod_sleeping" ,
+            pic:"https://assets.newatlas.com/dims4/default/b25195b/2147483647/strip/true/crop/1440x1080+0+0/resize/1440x1080!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fgrade-seven-pod-6.jpg" ,
+            title:"Inflatable G7 Pod sleeping ledge lightens the load for mountain-climbers with no fear" ,
             intro:"Mountaineers setting out on multi-day expeditions need somewhere to rest their heads at night.....",
             pages:"/Inflatable_Pod_sleeping"
         },
