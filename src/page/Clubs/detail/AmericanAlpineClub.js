@@ -1,3 +1,5 @@
+import React from "react";
+import Maps from "../../../components/maps";
 import img1 from "../../../img/clubs/American Alpine Club/AAC1.jpeg";
 import img2 from "../../../img/clubs/American Alpine Club/AAC2.jpeg";
 import img3 from "../../../img/clubs/American Alpine Club/AAC3.jpg";
@@ -18,6 +20,7 @@ function AAC(){
             <p>The AAC publishes two journals, The American Alpine Journal (AAJ) and Accidents in North American Mountaineering (Accidents), and a Guidebook to Membership annually. Collections of these journals, along with tens of thousands of other climbing-related publications and mountaineering literature, can be found in the Henry S. Hall Jr. American Alpine Club Library, also located in the AMC.</p>
             <img className="img_bv" src={img5} alt=""></img>
             <p>The AAC is a 501(c)(3) organization supported by gifts and grants from individuals, corporations and foundations, member dues, and income from lodging, publications and restricted endowments.</p>
+            <Maps name="American Alpine Club" ggmap="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6134.348316236791!2d-105.223213!3d39.758198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b9acd8fba232b%3A0x94b1ee2161486d9f!2sAmerican%20Alpine%20Club%20Library!5e0!3m2!1svi!2sus!4v1702801785690!5m2!1svi!2sus"></Maps>
         </div>
     );
 }
