@@ -11,8 +11,8 @@ const Footer = () => {
                     <p className='about_laybel'>About</p>
                     <p className='about_detail'>mountaineering - Blog specializing in climbing activities, providing necessary knowledge and tips for successful climbing trips, reviewing ideal climbing locations as well as good and quality climbing aids quantity.</p>
                     <div className='social'>
-                        <a path='https://www.facebook.com/' ><i className="fa-brands fa-pinterest"></i></a>
-                        <a src={``}><i className="fa-brands fa-facebook"></i></a>
+                        <a href='https://www.pinterest.com' ><i className="fa-brands fa-pinterest"></i></a>
+                        <a href='https://www.facebook.com/aptech.fpt'><i className="fa-brands fa-facebook"></i></a>
                     </div>
                 </div>
                 <div className='contact'>
