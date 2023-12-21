@@ -44,7 +44,11 @@ footer{
 
 .contact{
     width: calc(100%/3);
-    text-align: center;
+}
+.contact_con{
+    margin: 0 auto;
+    width:300px ;
+    margin-top: 20px;
 }
 
 .map_footer{

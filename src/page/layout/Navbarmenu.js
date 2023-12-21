@@ -10,7 +10,7 @@ const Navbarmenu =()=>{
                     <li className="a">
                         <NavLink className="a">Knowledge</NavLink>
                         <ul className="subnav">
-                            <li><NavLink className="a2 " to={`/overview`}>overview</NavLink></li>
+                            <li><NavLink className="a2 " to={`/overview`}>Overview</NavLink></li>
                             <li><NavLink className="a2 " to={`/techniques`}>Techniques</NavLink></li>
                             <li><NavLink className="a2 " to={`/training`}>Training</NavLink></li>
                             <li><NavLink className="a2 " to={`/nutrition`}>Nutrition</NavLink></li>
@@ -27,6 +27,7 @@ const Navbarmenu =()=>{
                             <li><NavLink className="a2 " to={`/videos`}>Videos</NavLink></li>
                         </ul>    
                     </li>
+                    <li><NavLink className="a " to={`/contact`}>Contact</NavLink></li>
                 </ul>
         </header>
     );

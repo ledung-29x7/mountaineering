@@ -26,7 +26,7 @@ const gear =()=>{
         },
         {
             pic:"https://www.99boulders.com/wp-content/uploads/2019/05/Group-scaled.jpg" ,
-            title:"how to choose the most suitable climbing backpack" ,
+            title:"How to choose the most suitable climbing backpack" ,
             intro:"Are you planning to go Hiking/Trekking for a long time in the mountains or simply a short picnic? No matter what, first, what you need is to find .....",
             pages:"/backpack"
         },

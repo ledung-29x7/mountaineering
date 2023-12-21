@@ -16,10 +16,12 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='contact'>
+                    <div className='contact_con'>
                     <img className='logo_footer' src={logo}></img>
                     <p className='ct'> <i class="fa-solid fa-phone"></i>  +84337302288</p>
                     <p className='ct'> <i class="fa-solid fa-location-dot"></i>  No.8-Ton That Thuyet</p>
                     <p className='ct'> <i class="fa-solid fa-envelope"></i> lechungdung29@gmail.com</p>
+                    </div>
                 </div>
                 <div className='map_footer'>
                     <p className='about_laybel' >Address</p>

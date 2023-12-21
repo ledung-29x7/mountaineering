@@ -8,10 +8,10 @@ import Related_articles from '../../../../components/Related_articles';
 const Dangerous_Lead = () =>{
     const posts = [
         {
-            "pic" : "/overview/intro/4.jpeg" ,
-            "title" : "Mountaineering terrain" ,
-            "intro" : "We can divide mountaineering terrain into various types according to several criteria.......",
-            "pages": "/terrain"
+            "pic":"/overview/intro/7.webp",
+            "title":"The Different Types Of Shelters Used By Mountaineers",
+            "intro":"Because the weather conditions on mountains can change without notice, shelters can play a critical role in keeping climbers safe and protected.",
+            "pages" : "/Types-Of-Shelters"
         },
         {
             "pic" : "/overview/intro/5.png",

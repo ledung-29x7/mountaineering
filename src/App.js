@@ -13,6 +13,7 @@ import News from './page/News/News';
 import Clubs from './page/Clubs/clubs';
 import Videos from './page/media/videos/videos';
 import Photos from './page/media/photos/photos';
+import Contact from './page/Contact/contact';
 // import Support from './components/support';
 
 // overview detail
@@ -133,6 +134,7 @@ function App() {
         <Route path='/clubs' element={<Clubs/>}></Route>
         <Route path='/videos' element={<Videos/>}></Route>
         <Route path='/photos' element={<Photos/>}></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
         {/* <Route path='/support' element={<Support/>}></Route> */}
 
         {/* overview detail */}

@@ -14,7 +14,7 @@ const type =() =>{
     const posts = [
         {
             pic : "https://www.psychi.co.uk/cdn/shop/articles/Screenshot_2022-01-18_at_12.56.31.jpg?v=1690555081&width=1790",
-            title : "History techniques",
+            title : "Type of mountaineering",
             intro : 'One of today’s predominant forms of mountaineering. The defining feature for classification in thi.......',
             pages: '/types'
         },
