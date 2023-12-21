@@ -9,11 +9,12 @@
 
 .contact_form{
     width: 50%;
-    padding: 0 50px;
+    padding: 0 25px;
     
 }
 .contact_ct{
     width: 50%;
+    padding: 0 25px;
 }
 .h2_contact{
     font-size: 30px;
