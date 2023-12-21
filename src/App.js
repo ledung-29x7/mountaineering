@@ -105,7 +105,6 @@ import Inflatable_Pod_sleeping from './page/gear/detail/Inflatable_Pod_sleeping'
   
   //  clubs
   import AAC from './page/Clubs/detail/AmericanAlpineClub';
-  import TheJapanMountaineeringAssociation from './page/Clubs/detail/The JapanMountaineeringAssociation';
   import TheHimalayanClub from './page/Clubs/detail/TheHimalayanClub';
   import TheNewZealandAlpineClub from './page/Clubs/detail/TheNewZealandAlpineClub';
 
@@ -230,7 +229,6 @@ function App() {
         {/* clubs */}
 
         <Route path='/American-Alpine-Club' element={<AAC/>}></Route>
-        <Route path='/The-Japan-Mountaineering-Association' element={<TheJapanMountaineeringAssociation/>}></Route>
         <Route path='/The-Himalayan-Club' element={<TheHimalayanClub/>}></Route>
         <Route path='/The-New-Zealand-Alpine-Club' element={<TheNewZealandAlpineClub/>}></Route>
 
